@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml packageId="6f56e83d-156f-4b2e-b011-b734e33928ab" system="uuid" xmlns:eml="https://eml.ecoinformatics.org/eml-2.2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.2" xsi:schemaLocation="https://eml.ecoinformatics.org/eml-2.2.0 https://eml.ecoinformatics.org/eml-2.2.0/eml.xsd">
+  <dataset>
+    <alternateIdentifier>intellectualRights</alternateIdentifier>
+    <title>Géneros de fitoplancton identificado en la Expedición Pacífico 2018 - Distrito de Manejo Integrado (DNMI) Cabo Manglares</title>
+    <creator>
+      <individualName>
+        <givenName>Fredy Albeiro</givenName>
+        <surName>Castrillón Valencia</surName>
+      </individualName>
+      <organizationName>Dirección General Marítima</organizationName>
+      <positionName>Analista Laboratorio</positionName>
+      <address>
+        <deliveryPoint>Capitanía de Puerto de Tumaco, Vía al Morro, Barrio 20 de Julio</deliveryPoint>
+        <city>San Andrés de Tumaco</city>
+        <administrativeArea>Nariño</administrativeArea>
+        <country>CO</country>
+      </address>
+      <electronicMailAddress>fcastrillon@dimar.mil.co</electronicMailAddress>
+      <onlineUrl>https://www.oceanexpert.net/expert/32369</onlineUrl>
+      <userId directory="http://orcid.org/">0000-0003-2815-6122</userId>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Christian</givenName>
+        <surName>Bermúdez Rivas</surName>
+      </individualName>
+      <organizationName>Dirección General Marítima</organizationName>
+      <positionName>Investigador Científico</positionName>
+      <address>
+        <deliveryPoint>Capitanía de Puerto de Tumaco, Vía al Morro, Barrio 20 de Julio</deliveryPoint>
+        <city>San Andrés de Tumaco</city>
+        <administrativeArea>Nariño</administrativeArea>
+        <country>CO</country>
+      </address>
+      <electronicMailAddress>cbermudezr@dimar.mil.co</electronicMailAddress>
+      <onlineUrl>https://www.oceanexpert.net/expert/chrisbermudezr</onlineUrl>
+      <userId directory="http://orcid.org/">0000-0002-7363-7251</userId>
+    </creator>
+    <metadataProvider>
+      <individualName>
+        <givenName>Christian</givenName>
+        <surName>Bermúdez Rivas</surName>
+      </individualName>
+      <organizationName>Dirección General Marítima</organizationName>
+      <positionName>Investigador Científico</positionName>
+      <address>
+        <deliveryPoint>Capitanía de Puerto de Tumaco, Vía al Morro, Barrio 20 de Julio</deliveryPoint>
+        <city>San Andrés de Tumaco</city>
+        <administrativeArea>Nariño</administrativeArea>
+        <country>CO</country>
+      </address>
+      <electronicMailAddress>cbermudezr@dimar.mil.co</electronicMailAddress>
+      <onlineUrl>https://www.oceanexpert.net/expert/chrisbermudezr</onlineUrl>
+      <userId directory="http://orcid.org/">0000-0002-7363-7251</userId>
+    </metadataProvider>
+    <language>spa</language>
+    <abstract/>
+    <keywordSet>
+      <keyword>GBIF Dataset Type Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_type_2015-07-10.xml</keyword>
+    </keywordSet>
+    <keywordSet>
+      <keyword keywordType="taxonomic">plankton</keyword>
+      <keyword keywordType="taxonomic">algae</keyword>
+      <keyword keywordType="temporal">tides</keyword>
+      <keyword keywordType="taxonomic">phytoplankton</keyword>
+      <keywordThesaurus>LTER Controlled Vocabulary</keywordThesaurus>
+    </keywordSet>
+    <intellectualRights>      <para>This information is released under the Creative Commons license - Attribution - CC BY (https://creativecommons.org/licenses/by/4.0/). The consumer of these data ("Data User" herein) is required to cite it appropriately in any publication that results from its use. The Data User should realize that these data may be actively used by others for ongoing research and that coordination may be necessary to prevent duplicate publication. The Data User is urged to contact the authors of these data if any questions about methodology or results occur. Where appropriate, the Data User is encouraged to consider collaboration or co-authorship with the authors. The Data User should realize that misinterpretation of data may occur if used out of context of the original study. While substantial efforts are made to ensure the accuracy of data and associated documentation, complete accuracy of data sets cannot be guaranteed. All data are made available "as is." The Data User should be aware, however, that data are updated periodically and it is the responsibility of the Data User to check for new versions of the data. The data authors and the repository where these data were obtained shall not be liable for damages resulting from any use or misinterpretation of the data. Thank you.</para>
+</intellectualRights>
+    <coverage>
+      <geographicCoverage>
+        <geographicDescription>Cuenca Pacífica Colombiana.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-69</westBoundingCoordinate>
+          <eastBoundingCoordinate>-35</eastBoundingCoordinate>
+          <northBoundingCoordinate>3</northBoundingCoordinate>
+          <southBoundingCoordinate>1</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>2018-11-25</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>2018-11-30</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+      <taxonomicCoverage>
+        <generalTaxonomicCoverage>El conjunto de datos (1598 registros biológicos) comprende a 46 género y una especie de fitoplancton colectados en las aguas superficiales de la subregión de Cabo Manglares y bahía Ancón de Sardinas, durante la Expedición Pacífico - Cabo Manglares 2018.</generalTaxonomicCoverage>
+        <taxonomicClassification>
+          <taxonRankName>genus</taxonRankName>
+          <taxonRankValue>Anabaena</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>genus</taxonRankName>
+          <taxonRankValue>Alexandrium</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>genus</taxonRankName>
+          <taxonRankValue>Asterionellopsis</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>genus</taxonRankName>
+          <taxonRankValue>Bacteriastrum</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>genus</taxonRankName>
+          <taxonRankValue>Biddulphia</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>species</taxonRankName>
+          <taxonRankValue>Bacillaria paxillifer</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>genus</taxonRankName>
+          <taxonRankValue>Blepharocysta</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>genus</taxonRankName>
+          <taxonRankValue>Ceratium</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>genus</taxonRankName>
+          <taxonRankValue>Chaetoceros</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>genus</taxonRankName>
+          <taxonRankValue>Coscinodiscus</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>genus</taxonRankName>
+          <taxonRankValue>Cymatosira</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>genus</taxonRankName>
+          <taxonRankValue>Dactyliosolen</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>genus</taxonRankName>
+          <taxonRankValue>Dinophysis</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>genus</taxonRankName>
+          <taxonRankValue>Ditylum</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>genus</taxonRankName>
+          <taxonRankValue>Eucampia</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>genus</taxonRankName>
+          <taxonRankValue>Gonyaulax</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>genus</taxonRankName>
+          <taxonRankValue>Guinardia</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>genus</taxonRankName>
+          <taxonRankValue>Hemiaulus</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>genus</taxonRankName>
+          <taxonRankValue>Hemidiscus</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>genus</taxonRankName>
+          <taxonRankValue>Leptocylindrus</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>genus</taxonRankName>
+          <taxonRankValue>Lioloma</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>genus</taxonRankName>
+          <taxonRankValue>Lithodesmium</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>genus</taxonRankName>
+          <taxonRankValue>Melosira</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>kingdom</taxonRankName>
+          <taxonRankValue>Chromista</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>genus</taxonRankName>
+          <taxonRankValue>Navicula</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>genus</taxonRankName>
+          <taxonRankValue>Navicula</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>genus</taxonRankName>
+          <taxonRankValue>Neocalyptrella</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>genus</taxonRankName>
+          <taxonRankValue>Nitzschia</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>genus</taxonRankName>
+          <taxonRankValue>Odontella</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>genus</taxonRankName>
+          <taxonRankValue>Ornithocercus</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>genus</taxonRankName>
+          <taxonRankValue>Oscillatoria</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>genus</taxonRankName>
+          <taxonRankValue>Paralia</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>genus</taxonRankName>
+          <taxonRankValue>Peridinium</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>genus</taxonRankName>
+          <taxonRankValue>Phalacroma</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>genus</taxonRankName>
+          <taxonRankValue>Plagiotropis</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>genus</taxonRankName>
+          <taxonRankValue>Plaurosigma</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>genus</taxonRankName>
+          <taxonRankValue>Protoceratium</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>genus</taxonRankName>
+          <taxonRankValue>Protoperidinium</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>genus</taxonRankName>
+          <taxonRankValue>Pseudonitzschia</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>genus</taxonRankName>
+          <taxonRankValue>Pyrocistis</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>genus</taxonRankName>
+          <taxonRankValue>Rhizosolenia</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>genus</taxonRankName>
+          <taxonRankValue>Skeletonema</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>genus</taxonRankName>
+          <taxonRankValue>Thalassionema</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>genus</taxonRankName>
+          <taxonRankValue>Thalassiosira</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>genus</taxonRankName>
+          <taxonRankValue>Triceratium</taxonRankValue>
+        </taxonomicClassification>
+      </taxonomicCoverage>
+    </coverage>
+    <maintenance>
+      <description>
+        <para>NA</para>
+      </description>
+    </maintenance>
+    <contact>
+      <individualName>
+        <givenName>Christian</givenName>
+        <surName>Bermúdez Rivas</surName>
+      </individualName>
+      <organizationName>Dirección General Marítima</organizationName>
+      <positionName>Investigador Científico</positionName>
+      <address>
+        <deliveryPoint>Capitanía de Puerto de Tumaco, Vía al Morro, Barrio 20 de Julio</deliveryPoint>
+        <city>San Andrés de Tumaco</city>
+        <administrativeArea>Nariño</administrativeArea>
+        <country>CO</country>
+      </address>
+      <electronicMailAddress>cbermudezr@dimar.mil.co</electronicMailAddress>
+      <onlineUrl>https://www.oceanexpert.net/expert/chrisbermudezr</onlineUrl>
+      <userId directory="http://orcid.org/">0000-0002-7363-7251</userId>
+    </contact>
+    <methods>
+      <methodStep>
+        <description>
+          <para/>
+        </description>
+      </methodStep>
+      <sampling>
+        <studyExtent>
+          <description>
+            <para/>
+          </description>
+        </studyExtent>
+      </sampling>
+      <qualityControl>
+        <description>
+          <para/>
+        </description>
+      </qualityControl>
+    </methods>
+    <project id="Expedición Pacífico 2018">
+      <title>Relaciones de las variables físico químicas con la productividad y abundancia del plancton en un ciclo mareal y la influencia de la autocorrelación espacial en su distribución.</title>
+      <personnel>
+        <individualName>
+          <givenName>Fredy Albeiro</givenName>
+          <surName>Castrillón Valencia</surName>
+        </individualName>
+        <organizationName>Dirección General Marítima</organizationName>
+        <positionName>Analista Laboratorio</positionName>
+        <address>
+          <deliveryPoint>Capitanía de Puerto de Tumaco, Vía al Morro, Barrio 20 de Julio</deliveryPoint>
+          <city>San Andrés de Tumaco</city>
+          <administrativeArea>Nariño</administrativeArea>
+          <country>CO</country>
+        </address>
+        <electronicMailAddress>fcastrillon@dimar.mil.co</electronicMailAddress>
+        <onlineUrl>https://www.oceanexpert.net/expert/32369</onlineUrl>
+        <userId directory="https://orcid.org">0000-0003-2815-6122</userId>
+        <role>Analista de Laboratorio</role>
+      </personnel>
+      <personnel>
+        <individualName>
+          <givenName>Christian</givenName>
+          <surName>Bermúdez Rivas</surName>
+        </individualName>
+        <organizationName>Dirección General Marítima</organizationName>
+        <positionName>Investigador Científico</positionName>
+        <address>
+          <deliveryPoint>Capitanía de Puerto de Tumaco, Vía al Morro, Barrio 20 de Julio</deliveryPoint>
+          <city>San Andrés de Tumaco</city>
+          <administrativeArea>Nariño</administrativeArea>
+          <country>CO</country>
+        </address>
+        <electronicMailAddress>cbermudezr@dimar.mil.co</electronicMailAddress>
+        <onlineUrl>https://www.oceanexpert.net/expert/chrisbermudezr</onlineUrl>
+        <userId directory="https://orcid.org">0000-0002-7363-7251</userId>
+        <role>Analista de datos</role>
+      </personnel>
+      <abstract>
+        <para>El Distrito Nacional de Manejo Integrado (DNMI) Cabo Manglares, Bajo Mira y Frontera se localiza en una región que ha sufrido considerables impactos debido a los derrames de hidrocarburos a lo largo del tiempo, principalmente debido a su proximidad al oleoducto transandino y sus conexiones con el río Mira. Para comprender los efectos potenciales en el ecosistema marino y costero del DNMI, es crucial entender la dinámica de las variables físicas, químicas y biológicas del agua en un entorno caracterizado por oscilaciones macromareales semidiurnas, así como sus interrelaciones. Además, se ha considerado la influencia de la autocorrelación espacial en la distribución de estas variables, ya que este fenómeno desafía los supuestos estadísticos convencionales en la construcción de modelos explicativos. En este estudio, se analizaron las correlaciones entre 26 variables que abarcan aspectos físicos como temperatura y transparencia, químicos que incluyen nutrientes, pH, sólidos suspendidos y salinidad, y variables biológicas que representan la productividad secundaria en términos de biomasa y biovolumen, la clorofila-a como indicador de la productividad primaria, así como la diversidad (H’ y D), abundancia, equidad (J’) y número de géneros de fitoplancton, y sus variaciones entre mareas altas y bajas en la zona costera del DNMI. No se observaron diferencias significativas entre las mareas en ninguna de las variables, excepto en el caso del amonio, que mostró niveles ligeramente más altos durante la marea baja. Se evaluó la heterogeneidad espacial de cada variable mediante el cálculo del índice de Moran (I), encontrando que casi todas las variables se distribuyen de manera aleatoria en toda el área de estudio y en ambas mareas. Sin embargo, se observó autocorrelación espacial en la clorofila, el número de géneros de fitoplancton, la concentración de silicatos y la transparencia en ambas mareas. Únicamente el pH mostró autocorrelación positiva con el espacio durante la marea baja.</para>
+      </abstract>
+      <funding>
+        <para>Comisión Colombiana del Océano | Armada Nacional | Dirección General Marítima</para>
+      </funding>
+    </project>
+    <otherEntity>
+      <entityName>ESTA ES UNA PRUEBA DEL NOMBRE D ELA ENTIDAD</entityName>
+      <entityDescription>DESCRIPCIÖN DE LA ENTIDAD</entityDescription>
+      <physical>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>csv</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://cecoldo.dimar.mil.co</url>
+          </online>
+        </distribution>
+      </physical>
+      <entityType>CONJUNTO DE DATOS</entityType>
+    </otherEntity>
+  </dataset>
+  <additionalMetadata>
+    <metadata>
+      <importedFromXML filename="Prueba_EML.xml" dateImported="2024-03-11"/>
+    </metadata>
+  </additionalMetadata>
+  <additionalMetadata>
+    <metadata>
+      <emlEditor app="ezEML" release="2024.02.21"/>
+    </metadata>
+  </additionalMetadata>
+</eml:eml>

@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml system="https://pasta.edirepository.org" packageId="89898989" xmlns:eml="https://eml.ecoinformatics.org/eml-2.2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.2" xsi:schemaLocation="https://eml.ecoinformatics.org/eml-2.2.0 https://eml.ecoinformatics.org/eml-2.2.0/eml.xsd">
+  <access system="https://pasta.edirepository.org" scope="document" order="allowFirst" authSystem="https://pasta.edirepository.org/authentication">
+    <allow>
+      <principal>chrisbermudezr@gmail.com</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset>
+    <title>Lore ipsum Lore ipsum Lore ipsum Lore ipsum</title>
+    <creator>
+      <individualName>
+        <givenName>Nombre</givenName>
+        <surName>Apellido apellido</surName>
+      </individualName>
+      <organizationName>DIMAR</organizationName>
+      <positionName>Desarrollador</positionName>
+      <address>
+        <deliveryPoint>Sulaco</deliveryPoint>
+        <city>Sulaco</city>
+        <administrativeArea>Sulaco</administrativeArea>
+        <postalCode>58001</postalCode>
+      </address>
+      <electronicMailAddress>desarrollador@gmail.com</electronicMailAddress>
+      <onlineUrl>http://www.gmail.com</onlineUrl>
+    </creator>
+    <pubDate>2019-02-02</pubDate>
+    <abstract>      <para>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</para>
+</abstract>
+    <keywordSet>
+      <keyword keywordType="place">aboveground biomass</keyword>
+      <keywordThesaurus>LTER Controlled Vocabulary</keywordThesaurus>
+    </keywordSet>
+    <coverage>
+      <geographicCoverage>
+        <geographicDescription>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-84.0</westBoundingCoordinate>
+          <eastBoundingCoordinate>-77.0</eastBoundingCoordinate>
+          <northBoundingCoordinate>17.0</northBoundingCoordinate>
+          <southBoundingCoordinate>1.0</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>2019-01-01</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>2019-12-01</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+      <taxonomicCoverage>
+        <generalTaxonomicCoverage>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</generalTaxonomicCoverage>
+        <taxonomicClassification>
+          <taxonRankName>Class</taxonRankName>
+          <taxonRankValue>Gastropoda</taxonRankValue>
+          <commonName>gastropods</commonName>
+          <taxonId provider="https://www.ncbi.nlm.nih.gov/taxonomy">6448</taxonId>
+          <taxonomicClassification>
+            <taxonRankName>Subclass</taxonRankName>
+            <taxonRankValue>Caenogastropoda</taxonRankValue>
+            <taxonId provider="https://www.ncbi.nlm.nih.gov/taxonomy">69555</taxonId>
+            <taxonomicClassification>
+              <taxonRankName>Order</taxonRankName>
+              <taxonRankValue>Littorinimorpha</taxonRankValue>
+              <taxonId provider="https://www.ncbi.nlm.nih.gov/taxonomy">216294</taxonId>
+              <taxonomicClassification>
+                <taxonRankName>Superfamily</taxonRankName>
+                <taxonRankValue>Pterotracheoidea</taxonRankValue>
+                <taxonId provider="https://www.ncbi.nlm.nih.gov/taxonomy">413196</taxonId>
+                <taxonomicClassification>
+                  <taxonRankName>Family</taxonRankName>
+                  <taxonRankValue>Pterotracheidae</taxonRankValue>
+                  <taxonId provider="https://www.ncbi.nlm.nih.gov/taxonomy">413197</taxonId>
+                  <taxonomicClassification>
+                    <taxonRankName>Genus</taxonRankName>
+                    <taxonRankValue>Firoloida</taxonRankValue>
+                    <taxonId provider="https://www.ncbi.nlm.nih.gov/taxonomy">649074</taxonId>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+      </taxonomicCoverage>
+    </coverage>
+    <maintenance>
+      <description>        <para>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</para>
+</description>
+      <maintenanceUpdateFrequency>unknown</maintenanceUpdateFrequency>
+    </maintenance>
+    <publisher>
+      <individualName>
+        <givenName>Christian</givenName>
+        <surName>BErmudez</surName>
+      </individualName>
+      <organizationName>Dimar</organizationName>
+      <positionName>Investigador</positionName>
+      <address>
+        <deliveryPoint>Sulaco</deliveryPoint>
+        <city>Sulaco</city>
+        <administrativeArea>Sulaco</administrativeArea>
+        <postalCode>58001001</postalCode>
+        <country>Nostromo</country>
+      </address>
+      <electronicMailAddress>investigador@gmail.com</electronicMailAddress>
+      <onlineUrl>https://www.dsf.com</onlineUrl>
+    </publisher>
+    <pubPlace>Sulaco</pubPlace>
+    <methods>
+      <methodStep>
+        <description>          <para>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</para>
+</description>
+        <instrumentation>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</instrumentation>
+        <dataSource>
+          <title>Sulaco</title>
+          <distribution>
+            <online>
+              <onlineDescription>Sulaco</onlineDescription>
+            </online>
+          </distribution>
+        </dataSource>
+      </methodStep>
+    </methods>
+    <project>
+      <title>Lore ipsum</title>
+      <abstract>        <para>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</para>
+</abstract>
+    </project>
+    <otherEntity>
+      <entityName>lore ipsum</entityName>
+      <entityDescription>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</entityDescription>
+      <physical>
+        <objectName>chuta</objectName>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>png</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+      </physical>
+      <entityType>photograph</entityType>
+    </otherEntity>
+  </dataset>
+  <additionalMetadata>
+    <metadata>
+      <emlEditor app="ezEML" release="2024.02.21"/>
+    </metadata>
+  </additionalMetadata>
+</eml:eml>

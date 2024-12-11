@@ -1,0 +1,445 @@
+---
+title: "Géneros de fitoplancton obtenidos en los eventos de pleamar y bajamar en la Expedición Pacífico 2018 - Distrito de Manejo Integrado (DNMI) Cabo Manglares."
+
+author: " Castrillón, Fredy Albeiro^1^ & Bermúdez-Rivas, Christian^2^ & Quintana-Manotas, Humberto Luis^3^"
+
+output:
+  bookdown::word_document2:
+    reference_docx: Templete-DataPaper.docx
+    number_sections: false
+    link-citations: yes
+    language:
+      label:
+        fig: 'Figura '
+        tab: 'Tabla '
+        eq: 'Ecuación '
+keep_tex: true
+csl: american-psychological-association-7th-edition.csl
+bibliography: bibliografia.bib
+
+df_print: kable
+linkcolor: black
+---
+
+
+
+^1^  Centro de Investigaciones Oceanográfica e Hidrográfica del Pacífico (CCCP). Sección de Laboratorios. Capitanía de Puerto de Tumaco, Vía al Morro, Tumaco, Nariño. [fcastrillon\@dimar.mil.co](mailto:fcastrillon@dimar.mil.co){.email} ORCID:0000-0003-2815-6122; ^2^Centro de Investigaciones Oceanográfica e Hidrográfica del Pacífico (CCCP). Sección de Protección del Medio Marino. Capitanía de Puerto de Tumaco, Vía al Morro, Tumaco, Nariño. [cbermudezr\@dimar.mil.co](mailto:cbermudezr@dimar.mil.co){.email}, ORCID: 0000-0002-7363-7251; ^3^ Centro de Investigaciones Oceanográfica e Hidrográfica del Pacífico (CCCP). Sección de Protección del Medio Marino. Capitanía de Puerto de Tumaco, Vía al Morro, Tumaco, Nariño. [hquintero\@dimar.mil.co](mailto:hquintero@dimar.mil.co){.email}, ORCID: 0000-0002-1700-4476
+
+**Autor de correspondencia:**[cbermudezr\@dimar.mil.co](mailto: cbermudezr@dimar.mil.co){.email}
+
+**Resúmen**
+
+La Comisión Colombiana del Océano, con el propósito de fortalecer el conocimiento científico sobre la biodiversidad marina y costera del país, ha concebido el *Plan Nacional de Expediciones Científicas Marinas (PNEC)* [@CCO2023]. Este proyecto de largo alcance se enfoca en contribuir al desarrollo económico, la gestión sostenible de los recursos naturales, el ordenamiento territorial marino-costero y la conservación de la biodiversidad, dentro del marco de cooperación interinstitucional. El PNEC incluye un programa específico para el Pacífico Colombiano, dirigido a abordar dos áreas temáticas principales: Cultura, Educación y Ciencias Marinas, así como el Uso Sostenible de la Biodiversidad. Este último busca establecer las condiciones necesarias para mantener la salud del ecosistema marino-costero, fomentando la conservación y el aprovechamiento sostenible de los recursos [@CCO2023].
+
+El presente conjunto de datos documenta la frecuencia de géneros de fitoplancton hallados en la zona nerítica del Distrito de Manejo Integrado - Cabo Manglares durante la Expedición Pacífico 2018. Las muestras fueron recolectadas en ambas mareas, tanto en bajamar como en pleamar, entre el 25 y el 30 de noviembre. Este conjunto de datos abarca 1598 registros biológicos, que comprenden 46 géneros y una especie de fitoplancton, clasificados en siete filos: Bacillariophyta (29 géneros), Myzozoa (11 géneros), Cyanobacteria (dos géneros), y Ochrophyta y Platyhelminthes (un género cada uno). Entre los géneros más frecuentemente hallados se encuentraron *Chaetoceros* (7.1%), *Skeletonema* (6.7%), *Rhizosolenia* (6.1%) y *Thalassionema* (5.9%). *Skeletonema* y *Chaetoceros* fueon los géneros más abundantes, representando el 62% y el 12% respectivamente del total de la densidad de todos los géneros.
+
+
+**Palabras clave:** Evento de muestreo. Plancton. Algas. Mareas. Fitoplancton. 
+
+**Abstract**
+
+The Colombian Ocean Commission, aiming to strengthen scientific knowledge regarding the marine and coastal biodiversity of the country, has devised the *National Plan for Marine Scientific Expeditions (PNEC)* [@CCO2023]. This long-term project is geared towards contributing to economic development, sustainable resource management, marine-coastal territorial planning, and biodiversity conservation, within the framework of inter-institutional cooperation. The PNEC encompasses a specific program for the Colombian Pacific, targeting two main thematic areas: Culture, Education, and Marine Sciences, as well as Sustainable Use of Biodiversity. The latter aims to establish the necessary conditions for maintaining the health of the marine-coastal ecosystem, promoting conservation and sustainable resource utilization [@CCO2023].
+
+The current dataset documents the frequency of phytoplankton genera found in the neritic zone of the Integrated Management District - Cape Manglares during the 2018 Pacific Expedition. Samples were collected during both low and high tides, between November 25th and 30th. This dataset comprises 1598 biological records, including 46 genera and one species of phytoplankton, classified into seven phyla: Bacillariophyta (29 genera), Myzozoa (11 genera), Cyanobacteria (two genera), and Ochrophyta and Platyhelminthes (one genus each). Among the most frecuent genera were *Chaetoceros* (7.1%), *Skeletonema* (6.7%), *Rhizosolenia* (6.1%), and *Thalassionema* (5.9%). *Skeletonema* and *Chaetoceros* were the most abundant genera, representing 62% and 12% respectively of the total density of all genera.
+
+**Keys words:** Samplingevent. Plankton. Algae. Tides. Phytoplankton
+
+# INTRODUCCIÓN
+
+El delta del río Mira, ubicado en el departamento de Nariño en Colombia, es una amplia red de estuarios cuya principal desembocadura se encuentra en El Distrito Nacional de Manejo Integrado (*DNMI*) Cabo Manglares, Bajo Mira y Frontera en el municipio de Tumaco. El DNMI se caracteriza por tener una alta riqueza de fauna y flora típica de las selvas húmedas tropicales, con una vegetación dominada por bosques de mangle compuestos por especies de *Rhizophora* spp. y *Avicennia germinans*. Estos manglares proveen hábitat para criaderos de larvas y pequeños peces [@beck2001] que sirven como sustento económico a las comunidades costeras en el pacífico colombiano. Sin embargo, estos ecosistemas han sido vulnerados por eventos masivos de contaminación por hidrocarburos [@garces2019].
+
+Los efectos de la contaminación por petróleo en el plancton marino son variados y pueden presentarse a corto plazo afectando el intercambio gaseoso de los organismos, la reducción de la penetración de luz que impide el desarrollo de fotosíntesis por el fitoplancton y el cambio en la estructura de la comunidad planctónica [@gonzalez2009]. A largo plazo, la toxicidad de algunos componentes del crudo como lo son los Hidrocarburos Aromáticos Policíclicos (HAPs), pueden afectar los niveles reproductivos generando descensos poblacionales en extensas áreas, afectando la dispersión [@huang2011].
+
+En áreas con regímenes macromareales como las que se presentan en el pacífico colombiano, los derrames de hidrocarburos tienden a permanecer en el ambiente por más tiempo, debido a que en estas áreas se presentan extensos planos lodosos que atrapan el crudo y lo retienen liberándolo poco a poco [@garces2019].
+
+En el área de Cabo Manglares se presenta un régimen de macromareas con rangos aproximado de 2 a 6 metros y de frecuencia semidiurna, lo que hace que se presenten dos mareas altas y dos mareas bajas en un ciclo de aproximadamente 25h 50 min [@alvarez2018]. Esto hace que las corrientes varíen entre las mareas y la hidrodinámica se vea controlada por el caudal del río y las ondas mareales [@RestrepoAngel2008].  
+
+Las mareas juegan un papel muy importante en  las funciones de los ecosistemas costeros ya que mantienen la variabilidad biótica y abiótica que caracteriza estos sistemas [@Villate1997] gracias a los cambios fisicoquímicos que estas permanentemente inducen [@davis2009beaches]. En algunos casos los cambios de salinidad o temperatura dados por la marea pueden determinar la distribución superficial de la comunidad del plancton [@Honggang2012] e influenciar en la densidad, diversidad y composición de especies [@davies2013effects], o determinar los cambios en la productividad primaria [@sharples2008potential]. 
+
+Esta variabilidad depende de los ciclos mareales que pueden ser de mediano plazo (días) como las mareas de sizigia y de cuadratura o de corto plazo (horas) como las pleamares y bajamares [@davies2013effects].  Entender los cambios bióticos y abióticos de estos ciclos es importante en estos escenarios con alta vulnerabilidad como lo es el delta del río Mira y específicamente el área de Cabo Manglares, ya que de esta manera se pueden aislar los cambios que son debidos a eventos antropogénicos cuando estos ocurran y estudiarlos de una manera más adecuada. 
+
+Una de las principales características que se debe entender de los cambios en las mareas es cómo estos afectan las variables fisicoquímicas y a su vez cómo estas se relacionan con los cambios en las variables bióticas. Sin embargo para analizar estas variables muy pocas veces se tiene en cuenta la estructura espacial no aleatoria que estas pueden presentar [@waters2003geostatistical]. A esta estructura espacial no aleatoria se le conoce como autocorrelación espacial [@Legendre1993] y básicamente asume que los objetos en una posición geográfica son similares a otros objetos en una posición geográfica cercana [@goodchild1987spatial].
+
+La heterogeneidad ambiental es inherente a todo fenómeno ecológico [@zas2006consecuencias] y es por esta razón que se deben entender estas estructuras espaciales no aleatorias y saber cómo manejarlas para crear mejores modelos explicativos entre variables, debido a que la existencia de esta rompe con los supuestos de independencia de los eventos [@Legendre1993]. 
+
+Con respecto a las variables oceanográficas, la mayoría de los procesos ambientales generan estructuras espaciales no aleatorias y por lo general se espera que las variables bióticas respondan de esta manera [@pinel1995spatial]; con procesos que se pueden llamar de contagio, como por ejemplo la reproducción, el apareamiento y el crecimiento poblacional donde se observan generalmente autocorrelaciones positivas, o con procesos de dispersión donde se observan autocorrelaciones negativas [@gaspard2019residual]. 
+
+
+## Datos del proyecto
+
+### Título.
+
+Relaciones de las variables físico químicas con la productividad y abundancia del plancton en un ciclo mareal y la influencia de la autocorrelación espacial en su distribución.
+
+### Nombre del investigador principal.
+Christian Bermúdez Rivas
+
+### Fuentes de financiación.
+
+Ministerio de Ciencias, Comisión Colombiana del Océano, Dirección General Marítima, Armada Nacional
+
+### Descripción del área de estudio.
+
+El Distrito Nacional de Manejo Integrado (DNMI) Cabo Manglares, Bajo Mira y Frontera, se encuentra ubicado en el municipio de Tumaco, departamento de Nariño delimitado entre las latitudes 1°29'44” N y 1°40'04” N; y las longitudes 78°53'11 W y 79°09'40 W. 
+
+
+
+### Descripción del proyecto.
+
+En este trabajo se compararon datos de variables físicas como la temperatura y la transparencia, químicas como: el pH, los nutrientes y la salinidad; y biológicas como: la productividad primaria (clorofila – $α$), la productividad secundaria, la riqueza, diversidad, equidad y dominancia de los géneros de fitoplancton,  tomadas durante la pleamar y bajamar para detectar diferencias entre estos eventos, debido a que las condiciones mareales crean un ambiente disímil por la influencia de la descarga de los ríos que hay en la costa. 
+
+Para entender cuáles podrían ser las relaciones de una variable sobre otra se calcularon correlaciones poniendo especial énfasis entre las variables fisicoquímicas y las variables biológicas y se estudió la autocorrelación espacial para cada una de las variables y determinar si existe una distribución aleatoria o no en cada uno de los eventos mareales.
+
+
+
+
+## Cobertura taxonómica.
+
+### Descripción.
+
+Este conjunto de datos contiene registros de 45 géneros de fitoplancton, los cuales están clasificados en 2 reinos, 3 filos, 4 clases, 21 órdenes y 32 familias. Estos géneros se distribuyen en 32 géneros de diatomeas (Ochrophyta), 11 géneros de dinoflagelados (Myzozoa) y 2 géneros de cianobacterias (Cyanobacteria). En cuanto a las clases, las diatomeas se encuentran en las clases Bacillariophyceae y Dinophyceae con 31 y 11 géneros respectivamente, mientras que los dinoflagelados se agrupan en la clase Dictyochophyceae con los 11 géneros, y las cianobacterias en la clase Cyanophyceae con los 2 géneros.
+
+### Categorías.
+
+**Ordenes:** 
+
+Bacillariales,
+Biddulphiales
+Chaetocerotanae incertae sedis,
+Coscinodiscales,
+Cymatosirales,
+Dictyochales,
+Dinophysales,
+Fragilariales,
+Gonyaulacales,
+Hemiaulales,
+Leptocylindrales,
+Lithodesmiales,
+Melosirales,
+Naviculales,
+Nostocales,
+Oscillatoriales,
+Paraliales,
+Peridiniales,
+Rhizosoleniales,
+Thalassionematales,
+Triceratiales.
+
+**Familias:**
+Aphanizomenonaceae,
+Bacillariaceae,
+Biddulphiaceae,
+Ceratiaceae,
+Chaetocerotaceae,
+Coscinodiscaceae,
+Cymatosiraceae,
+Dictyochaceae,
+Dinophysaceae,
+Fragilariaceae,
+Gonyaulacaceae,
+Hemiaulaceae,
+Hemidiscaceae,
+Leptocylindraceae,
+Lithodesmiaceae,
+Melosiraceae,
+Naviculaceae,
+Oscillatoriaceae,
+Oxyphysaceae,
+Paraliaceae,
+Peridiniaceae,
+Plagiotropidaceae,
+Pleurosigmataceae,
+Podolampadaceae,
+Pyrocystaceae,
+Rhizosoleniaceae,
+Thalassionemataceae,
+Triceratiaceae.
+
+
+**Géneros:** 
+*Anabaena*,
+*Alexandrium*,
+*Asterionellopsis*,
+*Bacteriastrum*,
+*Biddulphia*,
+*Bacillaria*,
+*Blepharocysta*,
+*Ceratium*,
+*Dictyocha*,
+*Plagiotropis*,
+*Chaetoceros*,
+*Coscinodiscus*,
+*Cymatosira*,
+*Dactyliosolen*,
+*Dinophysis*,
+*Ditylum*,
+*Eucampia*,
+*Gonyaulax*,
+*Guinardia*,
+*Hemiaulus*,
+*Hemidiscus*,
+*Leptocylindrus*,
+*Lioloma*,
+*Lithodesmium*,
+*Melosira*,
+*Navicula*,
+*Neocalyptrella*,
+*Nitzschia*,
+*Odontella*,
+*Ornithocercus*,
+*Oscillatoria*,
+*Paralia*,
+*Peridinium*,
+*Phalacroma*,
+*Pleurosigma*,
+*Plumosigma*,
+*Protoceratium*,
+*Protoperidinium*,
+*Pseudo\-nitzschia*,
+*Pyrocystis*,
+*Rhizosolenia*,
+*Skeletonema*,
+*Thalassionema*,
+*Thalassiosira*,
+*Triceratium*.
+
+
+## Cobertura geográfica.
+
+### Descripción.
+
+El DMI Cabo Manglares se encuentra en la desembocadura del río Mira y destaca por ser el tercer sistema deltáico más grande del Pacífico colombiano, abarcando aproximadamente 443 $km^2$ [@restrepo2008]. Se extiende desde la bahía de Tumaco hasta la bahía de Ancón de Sardinas, en la frontera entre Ecuador y Colombia. Sus canales estuarinos se distinguen por estar rodeados de bosques húmedos, manglares, llanuras fangosas e islas barrera, siendo influenciados por el oleaje y las mareas.
+
+El oleaje en esta área alcanza alturas promedio de 14 $\pm$ 0.6 metros, con un período medio de 6.3 $\pm$ 2.6 segundos [@restrepo2008]. El régimen mareal es semidiurno, con un rango mareal promedio de 1.3 metros, y durante las mareas de sizigia, este rango alcanza los 2.4 metros, mientras que durante las mareas en cuadratura es de 1.1 metros [@restrepo2008]. Estas condiciones favorecen la formación de extensas llanuras fangosas y amplias áreas intermareales donde predominan los bosques de manglar, principalmente de la especie *Rhizophora* spp. [@ZambranoOrtiz2014].
+
+
+### Coordenadas.
+
+1° 29’ 44" N y  1° 40’ 3.911” N Latitud; 78° 53’ 12” W y 79° 10’ 24.305” W Longitud.
+
+## Cobertura Temporal.
+
+25 de noviembre de 2018 - 30 de noviembre de 2018.
+
+# Materiales y Métodos
+
+## Área de Estudio.
+
+Al sur de Cabo Manglares, en la desembocadura del río Mira en la Bahía de Ancon de Sardinas, se establecieron 17 estaciones de muestreo (Tabla 1), las cuales se distribuyeron en grupos de 6 estaciones separadas por distancias de 2, 5 y 10 millas de la costa (Figura 1). 
+
+
+Tabla 1. Ubicación geográfica de las 18 estaciones de muestreo de las variables fisicoquímicas y biológicas. 
+
+
+
+|      Estaciones     	|      Latitud          	|      Longitud            	|
+|:---------------------:|:-----------------------:|:-------------------------:|
+|     34-1            	|     1°37'58.897" N     	|     79°1'20.824" W        	|
+|     34-5            	|     1°40'2.388" N      	|     79°4'35.796" W        	|
+|     34-10           	|     1°40'3.911" N      	|     79°9'37.732" W        	|
+|     34A-1           	|     1°37'57.788" N     	|     79°5'18.812" W        	|
+|     34A-5           	|     1°37'58.984" N     	|     79°10'24.305" W       	|
+|     34A-10          	|     1° 37' 59" N      	|     79° 10' 23.999" W    	|
+|     34B-1           	|     1°35'58.016" NN    	|     78°59'51.299" W       	|
+|     34B-5           	|     1°33'56.821" N     	|     79°3'49.802" W        	|
+|     34B-10          	|     1°35'56.638" N     	|     79°8'49.974" W        	|
+|     34C-5           	|     1°33'54.598" N     	|     79°1'1.700" W         	|
+|     34C-10          	|     1°33'53.035" N     	|     79°6'5.339" W         	|
+|     34D-1           	|     1° 31' 50" N       	|     78° 53' 12" W         	|
+|     34D-5           	|     1°31'47.489" N     	|     78°57'3.150" W        	|
+|     34D-10          	|     1°31'47.788" N     	|     79°2'5.820" W         	|
+|     35-2            	|     1° 29' 46" N      	|     78° 53' 12.999" W    	|
+|     35-5            	|     1°29'45.881" N     	|     78°57'10.145" W       	|
+|     35-10           	|     1° 29' 44" N       	|     79° 2' 12" W         	|
+
+
+## Descripción del muestreo.
+
+#### Fase de Campo.
+
+Se realizaron muestreos en cada una de las estaciones durante la fase diurna de la pleamar y la bajamar entre los días 25 y 30 de noviembre de 2018. En cada estación, se midió la transparencia del agua utilizando un disco *Secchi* y se registraron la temperatura y la salinidad con un perfilador CTD 19 PLUS. Además, se recolectaron muestras de agua superficial para análisis químicos utilizando una botella *Niskin* de 5 litros. Estas muestras se preservaron y transportaron al laboratorio del Centro de Investigaciones Oceanográficas e Hidrográficas del Pacífico – CCCP para su posterior procesamiento y análisis.
+
+Para la recolección de muestras de fitoplancton, se utilizó un recipiente con un volumen fijo de 20 litros. El agua recolectada se filtró a través de una malla de 53 $µm$ de poro, obteniendo un volumen total de muestra concentrada de 500 ml la cual se fijo con una solución de formalina neutralizada con tetraborato de sodio, quedando a una concentración final del 5%.
+
+#### Fase de Laboratorio.
+
+Se realizaron análisis químicos en las muestras de agua colectadas para determinar el pH, las concentraciones de sólidos suspendidos y nutrientes, incluyendo amonio $[NH_{4}]^-$, nitritos $[NO_2]^-$, nitratos $[NO_3]^-$, fosfatos $[PO_4]^{-3}$ y silicatos $[SiO_3]^{-2}$. Para la determinación del amonio, se siguió el método colorimétrico del azul de indofenol, según lo descrito por @strickland_practical_1972. Para los nitritos, se empleó el método colorimétrico descrito por @bendschneider_new_1952, mientras que para los nitratos se utilizó el método colorimétrico de reducción con cadmio-cobre, siguiendo a @strickland_practical_1972. Los fosfatos se analizaron mediante el método del ácido ascórbico [@murphy1958], y los silicatos se determinaron utilizando el método del metol-sulfito, también descrito por @strickland_practical_1972.
+
+En cuanto a las muestras biológicas recolectadas, se determinó el número de géneros y la abundancia de células de fitoplancton por litro ($Cel \ L^{-1}$) mediante la toma de alícuotas y el conteo posterior en una cámara *Sedgwick-Rafter* de 1 $ml$ de volumen. Además, se evaluó la concentración de clorofila – $\alpha$ utilizando el método tricromático 10200 H, como se describe en los *Standard Methods for the Examination of Water and Wastewater* [@lipps_standard_2023].
+
+
+#### Fase de Análisis.
+
+En total se obtuvieron datos para 19 variables que se dividieron en 2 físicas (temperatura superficial del mar ($°C$) y transparencia medida en metros), 8 químicas (solidos suspendidos ($mg \ L^{-1}$), salinidad ($PSU$), amonio ($µM$), nitritos ($µM$), nitratos ($µM$), fosfatos ($µM$), silicatos ($µM$) y $pH$) y 9 variables biológicas obtenidas de la comunidad fitoplanctónica y zooplanctónica. A partir de la primera se midió la densidad ($Células \ L^{-1}$) y Número de géneros. Como indicador de la productividad primaria se obtuvo la concentración de clorofila superficial. A partir de la comunidad del zooplancton se midió la productividad secundaria representada por el biovolúmen, el peso húmedo, el peso seco y el peso sin ceniza. 
+
+Para estudiar el tipo de distribución que presentaron las variables entre las mareas y la existencia de autocorrelación espacial en cada una de ellas, se calculó a través del lenguaje R [@RTeam2008] el I de Moran y se evaluó con un test de Monte Carlo con un nivel de significancia de $α=0.01$, calculando la matriz de pesos de distancia inversa a partir de las posiciones geográficas de las estaciones de muestreo. Se realizaron mapas de distribución con el programa ArcGIS®, calculados con el método de interpolación de *Kriging* para tener un referente visual de la distribución de las variables. 
+
+# Control de Calidad.
+
+
+La recolección de las muestras siguió el protocolo delineado en el documento "*Toma de Muestras*" bajo el código **M5-00-PRO-027** del Sistema de Gestión de Laboratorios de la Dirección General Marítima (SGL-DIMAR), el cual se basa en los procedimientos establecidos en la Parte 10200 B *Sample Collection* de los *Standard Methods for Examination of Water and Wastewater* [@lipps_standard_2023]. Posteriormente, las muestras fueron fijadas con solución de Lugol siguiendo las directrices de @lipps_standard_2023 para garantizar su preservación.
+
+Por otro lado, en el laboratorio, la revisión de las muestras se llevó a cabo conforme al protocolo descrito en el documento "*Determinación de la Densidad del Fitoplancton*" identificado con el código **M5-00-PRO-094** del Sistema de Gestión de Laboratorios de la Dirección General Marítima (SGL-DIMAR). Este procedimiento se fundamenta en los protocolos establecidos en la Parte 10200 F *Phytoplankton Counting Techniques* del *Standard Methods for Examination of Water and Wastewater* [@lipps_standard_2023].
+
+Todos los registros del conteo primario para cada muestra se hicieron en el formato "*Datos primarios para el análisis de densidad de plancton y macroinvertebrados bentónicos*" identificado con el código **M5-00-FOR-136**. Para el calculo de la densidad se usó la ecuación propuesta por @lipps_standard_2023 en la parte 10200 F-2 "*Counting Procedures*" para la técnica de conteo por campos.
+
+$$
+Cél \ mL^{-1} = C * 1000 mm^{3}/A * D * F
+$$
+donde:
+
+$C$ = número de células contados en la muestra concentrada, \
+$A$ = área del campo en $mm^{2}$, \
+$D$ = profundidad de un campo (en la cámara *Sedgwick-Rafter*) en $mm$, \
+$f$ = número de campos contados.\
+
+Una vez obtenida la densidad de células por $mL$ en la muestra concentrada se procedió a calcular la densidad en el agua marina con la siguiente ecuación:
+
+
+$$
+Cél \ L^{-1} = Cél \ mL^{-1} * V'/ V'' * n * V'''
+$$
+donde:
+
+$Cél \ L^{-1}$ = densidad de células en un $mL$ de muestra concentrada,\
+$V'$ = volumen de la muestra concentrada $mL$,\
+$V''$ = volumen de cada alícuota $mL$,\
+$n$ = número de alícuotas,\
+$V'''$ = volumen concentrado de la muestra en $L$.\
+
+Una vez obtenido el conteo se aplicaron las ecuaciones anteriores a través de una función creada con el lenguaje de programación en R [@RTeam2008] teniendo en cuenta las variables antes descritas.
+
+Para la depuración de la identificación algunos de los géneros se determinaron basados en @hasle1996identifying, @tomas1997identifying y @tapia2016fitoplancton y para la  clasificación taxonómica, se realizó una verificación de los nombres con la información del Registro Mundial de Especies Marinas – *WoRMS* [@WoRMS20240319] a través de la herramienta *Taxon Match*  y con el "*Backbone*" del *Global information Facility* - *Gbif* a través de un *script* desarrollado en R [@RTeam2008] utilizando el paquete "*worrms*" [@worrms2023] y los paquetes "*rgbif*" [@rgbif2024] y "*inborutils*" [@inborutils2023] respectivamente. 
+
+Para la estructuración de los datos bajo el estándar *Darwin Core* y los metadatos bajo el estándar *Ecological Metadata Languaje* se crearon *scripts* en R donde se aseguró la calidad de la entrada de datos en cada uno de los atributos y la validación de los datos de salida con el paquete "*validate*" [@validate2021] de @RTeam2008. Posterior a esto se realizó una validación de los archivos en el *data validator* del Gbif. Una vez validados los datos e integrados los archivos estos se publicaron utilizando la herramienta de publicación integrada – IPT del Gbif.
+
+Todos los *scripts* utilizados para validar e integrar los datos en el *Darwin Core* están disponibles en el siguiente repositorio de *GitHub*: [https://github.com/ChrisBermudezR/DwC_FitoExPacifico2018](https://github.com/ChrisBermudezR/DwC_FitoExPacifico2018)
+
+
+## Descripción de la metodología paso a paso.
+
+  1. Una vez terminada la fase de campo y de análisis de laboratorio los datos fisicoquímicos y biológicos se organizaron en matrices en una hoja de cálculo para ser entregados al *Centro Colombiano de Datos Oceanográficos - CECOLDO* de la Dirección General Marítima siguiendo la *Guía de Normalización de Datos Oceanográficos y Marinos*  [@ortizRuby2008]. 
+  
+  2. A partir de estas matrices normalizadas, los datos fueron extraídos con una serie de *scripts* desarrollados en R [@RTeam2008] para luego ser normalizados bajo el estandar *Darwin Core* siguiendo las recomendaciones de la Herramienta de publicación Integrada - IPT (*Integrated Publishing Tool* - *IPT*) y el *Sistema de información de Biodiversidad Marina* de Colombia. Debido a que el formato de normalización de los datos bajo la guía del CECOLDO es un formato de tipo *wide*, en los *scripts* de R se diseñó un programa para transformar los datos a un formato *long* el cuál es el que usa el formato *Darwin Core*. Esta transformación se realizó con el comando *pivot_longer* del paquete *tidyr* [@tidyr2024] de R [@RTeam2008].
+  
+  3. Todos los cálculos de densidad de los géneros de fitoplancton se realizaron a partir de una función creada en R [@RTeam2008] la cuál fue previamente validada en laboratorio con datos de estudios anteriores.
+  
+  4. Una vez realizado las transformaciones de los datos y los cálculos necesarios, las tablas con los datos de colecta, conteos, identificación taxonómica y medidas de las variables se unieron a través de los identificadores *fieldNumber*, *verbatimIdentification* y *eventID*, para luego ser exportadas en los archivos correspondientes de *occurrence*, *event* y *measurementOrFacts*. 
+  
+  5. Para la producción de los metadatos se desarrolló un *script* en R utilizando el paquete *EML* [@EML2024], con el cual se extrajeron los datos necesarios para hacer la documentación.
+
+
+# Resultados
+
+## Descripción de los conjuntos de datos.
+
+El análisis de la abundancia de los géneros de  fitoplancton bajo diferentes condiciones de marea revela que *Skeletonema* y *Chaetoceros* son los géneros dominantes (Figura 3), presentando los mayores conteos tanto en pleamar como en bajamar, con un total de 478.540 y 104.600 $Cél \ L^{-1}$, respectivamente, mientras que géneros como  *Phalacroma*, *Neocalyptrella*, y *Ornithocercus* tienen muy bajas abundancias, con menos de 30 $Cél \ L^{-1}$ (Tabla 2). En general, se observan mayores abundancias durante bajamar, especialmente en géneros como *Thalassionema* y *Coscinodiscus*, mientras que otros como *Gonyaulax* y *Blepharocysta* son exclusivas de pleamar. 
+
+
+
+**URL del recurso.** Para acceder a la última versión del conjunto de datos: \
+**IPT.** (URL del recurso publicado a través del IPT) \
+**Portal de datos.** (URL del recurso publicado a través del Portal del SiB Colombia) \
+**Portal GBIF.** (URL del recurso publicado a través del Portal de GBIF) \
+**Nombre.** Géneros de fitoplancton obtenidos en los eventos de pleamar y bajamar en la Expedición Pacífico 2018 - Distrito de Manejo Integrado (DNMI) Cabo Manglares. \
+**Idioma.** Español\
+**Codificación de caracteres.** UTF-8
+**URL del archivo.** Para acceder a la versión del conjunto de datos descrita en este artículo: \
+(URL al recurso en el Editor de Manuscritos de la revista) \
+**Formato del archivo.** Darwin Core \
+**Versión del formato del archivo.** 1.0 \
+**Nivel de jerarquía.** Dataset \
+**Fecha de publicación de los datos.** AAAA-MM-DD \
+**Idioma de los metadatos.** Español \
+**Fecha de creación de los metadatos.** 2021-09-21 \
+**Licencia de uso.** Extraída del recurso publicado a través del SiB Colombia. \
+
+
+
+
+
+
+
+# Agradecimientos
+
+Los autores agradecen al Ministerio de Ciencia Tecnología e Innovación (Colciencias en la fecha), a la Comisión Colombiana del Océano, a la Logística de la Expedición Científica Pacífico Cabo Manglares - 2018, a la Dirección General Marítima, a la Armada Nacional, a la tripulación del ARC 7 de Agosto por su hospitalidad y servicio, a Parques Nacionales por el acceso al área protegida y al Centro de Investigaciones Oceanográficas e Hidrográficas del Pacífico por la financiación de este proyecto.
+
+# Referencias
+
+::: {#refs}
+:::
+
+# Figuras
+
+```{r Fig01, echo=FALSE, fig.cap="Distribución de las estaciones de muestra en el Distrito de Manejo Integrado Cabo Manglares en el departamento de Nariño.",  fig.width=8, message=TRUE, warning=TRUE, dpi=300, out.height="100%", out.width="100%", paged.print=TRUE}
+knitr::include_graphics(path = "Fig_01.png")
+```
+
+
+```{r Fig02, echo=FALSE, fig.cap="A. Evento de muestreo durante la sizigia. B. Relación entre la toma de muestras y el comportamiento de la onda mareal en el Distrito Nacional de Manejo Integrado Cabo Manglares en el departamento de Nariño. ",  fig.width=18, message=TRUE, warning=TRUE, dpi=300, out.height="100%", out.width="100%", paged.print=TRUE}
+knitr::include_graphics(path = "Fig_02.png")
+```
+
+
+```{r Fig03, echo=FALSE, fig.cap="Gráfica de rango densidad de los géneros de Fitoplancton encontrados en los dos eventos mareales.",  fig.width=18, message=TRUE, warning=TRUE, dpi=300, out.height="100%", out.width="100%", paged.print=TRUE}
+knitr::include_graphics(path = "Fig_03.png")
+```
+
+
+```{r Fig04, echo=FALSE, fig.cap="Imágenes de los géneros encontrados en el Distrito Nacional de Manejo Integrado Cabo Manglares en el departamento de Nariño. ",  fig.width=18, message=TRUE, warning=TRUE, dpi=300, out.height="100%", out.width="100%", paged.print=TRUE}
+knitr::include_graphics(path = "./Generos_EPC_2018/ExPacifico2.png")
+```
+
+# Tablas
+
+Tabla 2. Abundancias de los géneros en el total de las muestras y en las muestras del colectadas en la pleamar y bajamar en el Distrito Nacional de Manejo Integrado de Cabo Manglares, Tumaco, Nariño.
+
+| **Géneros**                   | **Total**   | **Pleamar** | **Bajamar**  |
+|:---------------------------|:---------:|:---------:|:----------:|
+| *Skeletonema*               | 478540  | 195748  | 282792   |
+| *Chaetoceros*               | 104600  | 47530   | 57070    |
+| *Thalassionema*             | 27908   | 7087    | 20821    |
+| *Coscinodiscus*             | 16548   | 4100    | 12448    |
+| *Bacillaria paxillifer*      | 16520   | 4736    | 11784    |
+| *Odontella*                 | 13410   | 7102    | 6308     |
+| *Pseudonizschia*            | 12051   | 2847    | 9204     |
+| *Lithodesmium*              | 10959   | 4405    | 6554     |
+| *Rhizosolenia*              | 7045    | 2954    | 4091     |
+| *Thalassiosira*             | 4119    | 1629    | 2490     |
+| *Ditylum*                   | 3505    | 1487    | 2018     |
+| *Asterionellopsis*          | 3279    | 545     | 2734     |
+| *Navicula*                  | 3084    | 526     | 2558     |
+| *Lioloma*                   | 1864    | 586     | 1278     |
+| *Hemiaulus*                 | 1548    | 437     | 1111     |
+| *Biddulphia*                | 1451    | 836     | 615      |
+| *Melosira*                  | 1413    | 675     | 738      |
+| *Guinardia*                 | 1371    | 439     | 932      |
+| *Ceratium*                  | 1257    | 439     | 818      |
+| *Cymatosira*                | 1154    | 955     | 199      |
+| *Protoperidinium*           | 914     | 396     | 518      |
+| *Plaurosigma*               | 889     | 65      | 824      |
+| *Bacteriastrum*             | 875     | 245     | 630      |
+| *Nitzschia*                 | 546     | 230     | 316      |
+| *Oscillatoria*              | 485     | 140     | 345      |
+| *Paralia*                   | 435     | 0       | 435      |
+| *Leptocylindrus*            | 367     | 39      | 328      |
+| *Eucampia*                  | 356     | 77      | 279      |
+| *Triceratium*               | 346     | 242     | 104      |
+| *Anabaena*                  | 251     | 42      | 209      |
+| *Peridinium*                | 160     | 0       | 160      |
+| *Dinophysis*                | 155     | 47      | 108      |
+| *Hemidiscus*                | 149     | 39      | 110      |
+| *Gonyaulax*                 | 127     | 127     | 0        |
+| cf. *Dityocha*              | 120     | 61      | 59       |
+| *Dactyliosolen*             | 119     | 0       | 119      |
+| cf. *Alexandrium*           | 89      | 44      | 45       |
+| *Alexandrium*               | 82      | 0       | 82       |
+| *Protoceratium*             | 55      | 14      | 41       |
+| *Pyrocistis cf. Noctiluca*  | 40      | 40      | 0        |
+| *Chromista*                 | 31      | 0       | 31       |
+| *Plagiotropis*              | 23      | 0       | 23       |
+| *Blepharocysta*             | 22      | 0       | 0        |
+| *cf. Plagiotropis*          | 22      | 22      | 0        |
+| *Phalacroma*                | 21      | 0       | 21       |
+| *Neocalyptrella*            | 20      | 20      | 0        |
+| *Ornithocercus*             | 14      | 14      | 0        |

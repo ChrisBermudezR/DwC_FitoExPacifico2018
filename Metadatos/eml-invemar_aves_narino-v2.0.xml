@@ -1,0 +1,486 @@
+<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1"
+         xmlns:dc="http://purl.org/dc/terms/"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 http://rs.gbif.org/schema/eml-gbif-profile/1.1/eml.xsd"
+         packageId="https://ipt.biodiversidad.co/sibm/resource?id=invemar_aves_narino/v2.0" system="http://gbif.org" scope="system"
+         xml:lang="spa">
+
+<dataset>
+  <alternateIdentifier>10.15472/7luo5v</alternateIdentifier>
+  <alternateIdentifier>https://ipt.biodiversidad.co/sibm/resource?r=invemar_aves_narino</alternateIdentifier>
+  <title xml:lang="spa">Aves manglares de áreas afectadas por hidrocarburos en zona costera y piedemonte del departamento de Nariño</title>
+      <creator>
+    <individualName>
+        <givenName>Giovanni</givenName>
+      <surName>Cárdenas Carmona</surName>
+    </individualName>
+    <organizationName>World Wildlife Fund Colombia</organizationName>
+    <positionName>Consultor</positionName>
+    <address>
+        <deliveryPoint>Cr 35 4 A-25</deliveryPoint>
+        <city>Cali</city>
+        <administrativeArea>Valle del Cauca</administrativeArea>
+        <country>CO</country>
+    </address>
+          <userId directory="http://orcid.org/">0000-0001-5915-2816</userId>
+      </creator>
+      <creator>
+    <individualName>
+        <givenName>Julio</givenName>
+      <surName>Bohórquez Naranjo</surName>
+    </individualName>
+    <organizationName>Instituto de Investigaciones Marinas y Costeras INVEMAR</organizationName>
+    <positionName>Investigador Laboratorio de Sistemas de Información</positionName>
+    <address>
+        <deliveryPoint>Calle 25 No. 2-55, Playa Salguero - Rodadero</deliveryPoint>
+        <city>Santa Marta</city>
+        <administrativeArea>Magdalena</administrativeArea>
+        <country>CO</country>
+    </address>
+    <electronicMailAddress>julio.bohorquez@invemar.org.co</electronicMailAddress>
+      </creator>
+      <metadataProvider>
+    <individualName>
+        <givenName>Julio</givenName>
+      <surName>Bohórquez Naranjo</surName>
+    </individualName>
+    <organizationName>Instituto de Investigaciones Marinas y Costeras INVEMAR</organizationName>
+    <positionName>Investigador Laboratorio de Sistemas de Información</positionName>
+    <address>
+        <deliveryPoint>Calle 25 No. 2-55, Playa Salguero - Rodadero</deliveryPoint>
+        <city>Santa Marta</city>
+        <administrativeArea>Magdalena</administrativeArea>
+        <country>CO</country>
+    </address>
+    <electronicMailAddress>julio.bohorquez@invemar.org.co</electronicMailAddress>
+      </metadataProvider>
+      <associatedParty>
+    <individualName>
+      <surName>WWF Colombia</surName>
+    </individualName>
+    <organizationName>WWF Colombia</organizationName>
+    <positionName>Organización de conservación de la naturaleza</positionName>
+    <address>
+        <deliveryPoint>Carrera 10 A No. 69 A – 44</deliveryPoint>
+        <city>Bogotá, D.C.</city>
+        <administrativeArea>Bogotá, D.C.</administrativeArea>
+        <country>CO</country>
+    </address>
+    <phone>+60 1 443 15 50</phone>
+    <role>contentProvider</role>
+      </associatedParty>
+      <associatedParty>
+    <individualName>
+      <surName>Corporación Autónoma Regional de Nariño (CORPONARIÑO)</surName>
+    </individualName>
+    <organizationName>CORPONARIÑO</organizationName>
+    <positionName>Corporación Autónoma Regional</positionName>
+    <address>
+        <deliveryPoint>Calle 25 No. 7 Este - 84 Finca Lope Via la Carolina</deliveryPoint>
+        <city>Pasto</city>
+        <administrativeArea>Nariño</administrativeArea>
+        <country>CO</country>
+    </address>
+    <phone>7309282</phone>
+    <role>contentProvider</role>
+      </associatedParty>
+      <associatedParty>
+    <individualName>
+      <surName>Universidad del Valle</surName>
+    </individualName>
+    <organizationName>U del Valle</organizationName>
+    <positionName>Institución de educación superior</positionName>
+    <address>
+        <deliveryPoint>Cra. 13 No. 5-21</deliveryPoint>
+        <city>Guadalajara de Buga</city>
+        <administrativeArea>Valle del Cauca</administrativeArea>
+        <country>CO</country>
+    </address>
+    <phone>(2) 237-0000</phone>
+    <role>contentProvider</role>
+      </associatedParty>
+      <associatedParty>
+    <individualName>
+        <givenName>David</givenName>
+      <surName>Alonso Carvajal</surName>
+    </individualName>
+    <organizationName>Instituto de Investigaciones Marinas y Costeras INVEMAR</organizationName>
+    <positionName>Coordinador Programa Biodiversidad y Ecosistemas Marinos (BEM)</positionName>
+    <address>
+        <deliveryPoint>Calle 25 No. 2-55, Playa Salguero - Rodadero</deliveryPoint>
+        <city>Santa Marta</city>
+        <administrativeArea>Magdalena</administrativeArea>
+        <country>CO</country>
+    </address>
+    <role>pointOfContact</role>
+      </associatedParty>
+      <associatedParty>
+    <individualName>
+        <givenName>Angie Natalia</givenName>
+      <surName>Medina Avellaneda</surName>
+    </individualName>
+    <organizationName>SiB Colombia</organizationName>
+    <positionName>Contratista EC-SiB</positionName>
+    <address>
+        <city>Bogotá, D.C.</city>
+        <administrativeArea>Bogotá, D.C.</administrativeArea>
+        <country>CO</country>
+    </address>
+    <phone>3142428683</phone>
+    <electronicMailAddress>natt.me22@gmail.com</electronicMailAddress>
+          <userId directory="http://orcid.org/">0000-0001-8626-3087</userId>
+    <role>processor</role>
+      </associatedParty>
+  <pubDate>
+      2022-05-14
+  </pubDate>
+  <language>spa</language>
+  <abstract>
+    <para>En este estudio, se presenta un total de 837 registros correspondientes a 2369 individuos de 69 especies de aves manglares, las cuales se agrupan en 29 familias y 14 ordenes, que representan el 19,1% de las especies de aves reportadas para el litoral  del  municipio de San Andrés de Tumaco. Las aves fueron observadas en febrero y abril del 2017 en los esteros de Curay, Carboncillal, Cucupí y El Pozo los cuales se localizan en jurisdicción el municipio de San Andrés de Tumaco, Nariño.</para>
+    <para>Las  familias  con  mayor  número  de  especies  registradas  fueron  Ardeidae  con  ocho  especies (11,6%),  Accipitridae  con  cinco  (7,2%),  Picidae,  Psittacidae,  Scolopacidae,  Thraupidae  y Trochilidae con cuatro (5,8%) y Alcedinidae, Parulidae y Tyrannidae con tres (4,3%). Las 19  familias restantes, fueron  representadas  por  dos  o  una  especies  (con  2,9  y  1,4%, respectivamente), para un total de 27 especies (39,1%). La  especie  más  abundante  registrada  en  las  cinco  localidades fue la  Fragata  común  (Fregata magnificens Mathews,  1914)  perteneciente  a  la familia  de  las  Fragatas (Fregatidae), con  1083 (46%)  registros,  la  mayoría  (835)  en  Terán,  seguida por  el  Andarríos  maculado (Actitis  macularius Linnaeus,  1766)  perteneciente  a  la  familia  de  los  Andarríos  y  Caicas (Scolopacidae) con 135 (6%) registros, la mayoría (40) en Terán.</para>
+    <para>La  composición  de  la  avifauna  en  general  para  las  cinco  localidades está  dominada  por  las Garzas  (Ardeidae), familia  mejor  representada  por  el  número  de  especies,  seguidas  de  las Águilas y Gavilanes (Accipitridae) y con menos especies se encuentran los Carpinteros (Picidae), las  Guacamayas,  Pericos  y  Loras  (Psittacidae), los  Andarríos  y  Caicas  (Scolopacidae),  las Tangaras  y  Afines (Thraupidae),  los  Colibríes  (Trochilidae).  En  cuanto  a  las  familias  mejor representadas por las localidades, las Garzas (Ardeidae) y los Andarríos y Caicas (Scolopacidae) dominan  en  todas,  pero  a este  nivel  son  seguidas  por  las  Guacamayas,  Pericos  y  Loras (Psittacidae)  registradas  principalmente  en  Curay,  Bocagrande  y  Terán  y  los  Carpinteros (Picidae) en Trujillo y Bocagrande.</para>
+    <para>Se concluye que la  riqueza  de  especies  de  aves  en  general  para  las  cinco  localidades  en  el  municipio  de  San Andrés de Tumaco no es muy alta y mucho menos comparada con la riqueza de aves marinas y el litoral del municipio reportado en la literatura. En cuanto a la riqueza por las localidades, Terán presento la mayor riqueza de especies, luego esta Bocagrande con un número muy cercano y por  último  está  Trujillo,  Chontal  y  Curay,  con  riquezas  muy  similares.</para>
+  </abstract>
+      <keywordSet>
+            <keyword>Occurrence</keyword>
+        <keywordThesaurus>GBIF Dataset Type Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_type_2015-07-10.xml</keywordThesaurus>
+      </keywordSet>
+      <keywordSet>
+            <keyword>Observation</keyword>
+        <keywordThesaurus>GBIF Dataset Subtype Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_subtype.xml</keywordThesaurus>
+      </keywordSet>
+      <keywordSet>
+            <keyword>aves manglares</keyword>
+            <keyword>rehabilitación ecológica</keyword>
+            <keyword>hidrocarburos</keyword>
+            <keyword>zona costera</keyword>
+        <keywordThesaurus>n/a</keywordThesaurus>
+      </keywordSet>
+      <keywordSet>
+            <keyword>SiB_MARINO</keyword>
+        <keywordThesaurus>SiB Colombia</keywordThesaurus>
+      </keywordSet>
+  <additionalInfo>
+    <para>La estructuración y validación de los registros, se realizó con el apoyo de la Gobernación de Nariño el Convenio No. 19-242, con el objeto de “aunar esfuerzos técnicos, administrativos y financieros para ejecutar el proyecto denominado: “DISEÑO Y PRUEBA DE UNA ESTRATEGIA DE INNOVACIÓN SOCIAL DE TURISMO DE NATURALEZA CIENTÍFICO EN TERRITORIO ANCESTRAL AWÁ DEL DEPARTAMENTO DE NARIÑO”. Agradecemos a INVEMAR y al SiB Colombia por facilitar la publicación de estos datos asegurando que estén disponibles de manera libre y gratuita para las personas de la región y para el público interesado en familiarizarse con la gran diversidad y riqueza natural que alberga el departamento de Nariño.</para>
+  </additionalInfo>
+  <intellectualRights>
+    <para>This work is licensed under a <ulink url="http://creativecommons.org/licenses/by/4.0/legalcode"><citetitle>Creative Commons Attribution (CC-BY) 4.0 License</citetitle></ulink>.</para>
+  </intellectualRights>
+  <distribution scope="document">
+    <online>
+      <url function="information">https://alfresco.invemar.org.co/share/s/VRBmkr4yQlajg4tLEL0OVQ</url>
+    </online>
+  </distribution>
+  <coverage>
+      <geographicCoverage>
+          <geographicDescription>El proyecto se realizó en la zona marino costera de la Ensenada de Tumaco y la cuenca baja del río Mira, departamento de Nariño, Pacífico Colombiano. En donde se establecieron cinco localidades o sectores de interés: Curay (Control), Trujillo, Bocagrande, Terán y Chontal. Éstos últimos escogidos con base a la información sugerida por los consejos comunitarios de Acapa y bajo Mira y  Frontera, como  áreas  representativas  de  afectación  en  el  manglar  por  el  derrame  de hidrocarburos.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-78.997</westBoundingCoordinate>
+          <eastBoundingCoordinate>-78.519</eastBoundingCoordinate>
+          <northBoundingCoordinate>1.918</northBoundingCoordinate>
+          <southBoundingCoordinate>1.555</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+          <temporalCoverage>
+              <rangeOfDates>
+                  <beginDate>
+                    <calendarDate>2017-02-07</calendarDate>
+                  </beginDate>
+                <endDate>
+                  <calendarDate>2017-04-28</calendarDate>
+                </endDate>
+              </rangeOfDates>
+          </temporalCoverage>
+          <taxonomicCoverage>
+              <generalTaxonomicCoverage>Se presentan 837 registros de 2369 observaciones de individuos de aves manglares, los cuales corresponden a 69 especies  de  aves agrupadas en  29  familias, 14 ordenes y 56 géneros, que representan  el  19,1%  de  las  especies  de  aves  reportadas  para  el  litoral  del  municipio  de  San Andrés de Tumaco. Todos los individuos fueron identificados a nivel de especie.</generalTaxonomicCoverage>
+              <taxonomicClassification>
+                  <taxonRankName>family</taxonRankName>
+                <taxonRankValue>Accipitridae</taxonRankValue>
+              </taxonomicClassification>
+              <taxonomicClassification>
+                  <taxonRankName>family</taxonRankName>
+                <taxonRankValue>Alcedinidae</taxonRankValue>
+              </taxonomicClassification>
+              <taxonomicClassification>
+                  <taxonRankName>family</taxonRankName>
+                <taxonRankValue>Anatidae</taxonRankValue>
+              </taxonomicClassification>
+              <taxonomicClassification>
+                  <taxonRankName>family</taxonRankName>
+                <taxonRankValue>Apodidae</taxonRankValue>
+              </taxonomicClassification>
+              <taxonomicClassification>
+                  <taxonRankName>family</taxonRankName>
+                <taxonRankValue>Ardeidae</taxonRankValue>
+              </taxonomicClassification>
+              <taxonomicClassification>
+                  <taxonRankName>family</taxonRankName>
+                <taxonRankValue>Cathartidae</taxonRankValue>
+              </taxonomicClassification>
+              <taxonomicClassification>
+                  <taxonRankName>family</taxonRankName>
+                <taxonRankValue>Charadriidae</taxonRankValue>
+              </taxonomicClassification>
+              <taxonomicClassification>
+                  <taxonRankName>family</taxonRankName>
+                <taxonRankValue>Columbidae</taxonRankValue>
+              </taxonomicClassification>
+              <taxonomicClassification>
+                  <taxonRankName>family</taxonRankName>
+                <taxonRankValue>Fregatidae</taxonRankValue>
+              </taxonomicClassification>
+              <taxonomicClassification>
+                  <taxonRankName>family</taxonRankName>
+                <taxonRankValue>Furnariidae</taxonRankValue>
+              </taxonomicClassification>
+              <taxonomicClassification>
+                  <taxonRankName>family</taxonRankName>
+                <taxonRankValue>Haematopodidae</taxonRankValue>
+              </taxonomicClassification>
+              <taxonomicClassification>
+                  <taxonRankName>family</taxonRankName>
+                <taxonRankValue>Hirundinidae</taxonRankValue>
+              </taxonomicClassification>
+              <taxonomicClassification>
+                  <taxonRankName>family</taxonRankName>
+                <taxonRankValue>Icteridae</taxonRankValue>
+              </taxonomicClassification>
+              <taxonomicClassification>
+                  <taxonRankName>family</taxonRankName>
+                <taxonRankValue>Laridae</taxonRankValue>
+              </taxonomicClassification>
+              <taxonomicClassification>
+                  <taxonRankName>family</taxonRankName>
+                <taxonRankValue>Pandionidae</taxonRankValue>
+              </taxonomicClassification>
+              <taxonomicClassification>
+                  <taxonRankName>family</taxonRankName>
+                <taxonRankValue>Parulidae</taxonRankValue>
+              </taxonomicClassification>
+              <taxonomicClassification>
+                  <taxonRankName>family</taxonRankName>
+                <taxonRankValue>Phalacrocoracidae</taxonRankValue>
+              </taxonomicClassification>
+              <taxonomicClassification>
+                  <taxonRankName>family</taxonRankName>
+                <taxonRankValue>Picidae</taxonRankValue>
+              </taxonomicClassification>
+              <taxonomicClassification>
+                  <taxonRankName>family</taxonRankName>
+                <taxonRankValue>Pipridae</taxonRankValue>
+              </taxonomicClassification>
+              <taxonomicClassification>
+                  <taxonRankName>family</taxonRankName>
+                <taxonRankValue>Psittacidae</taxonRankValue>
+              </taxonomicClassification>
+              <taxonomicClassification>
+                  <taxonRankName>family</taxonRankName>
+                <taxonRankValue>Rallidae</taxonRankValue>
+              </taxonomicClassification>
+              <taxonomicClassification>
+                  <taxonRankName>family</taxonRankName>
+                <taxonRankValue>Ramphastidae</taxonRankValue>
+              </taxonomicClassification>
+              <taxonomicClassification>
+                  <taxonRankName>family</taxonRankName>
+                <taxonRankValue>Scolopacidae</taxonRankValue>
+              </taxonomicClassification>
+              <taxonomicClassification>
+                  <taxonRankName>family</taxonRankName>
+                <taxonRankValue>Thamnophilidae</taxonRankValue>
+              </taxonomicClassification>
+              <taxonomicClassification>
+                  <taxonRankName>family</taxonRankName>
+                <taxonRankValue>Thraupidae</taxonRankValue>
+              </taxonomicClassification>
+              <taxonomicClassification>
+                  <taxonRankName>family</taxonRankName>
+                <taxonRankValue>Trochilidae</taxonRankValue>
+              </taxonomicClassification>
+              <taxonomicClassification>
+                  <taxonRankName>family</taxonRankName>
+                <taxonRankValue>Troglodytidae</taxonRankValue>
+              </taxonomicClassification>
+              <taxonomicClassification>
+                  <taxonRankName>family</taxonRankName>
+                <taxonRankValue>Trogonidae</taxonRankValue>
+              </taxonomicClassification>
+              <taxonomicClassification>
+                  <taxonRankName>family</taxonRankName>
+                <taxonRankValue>Tyrannidae</taxonRankValue>
+              </taxonomicClassification>
+          </taxonomicCoverage>
+  </coverage>
+  <maintenance>
+    <description>
+      <para></para>
+    </description>
+    <maintenanceUpdateFrequency>asNeeded</maintenanceUpdateFrequency>
+  </maintenance>
+
+      <contact>
+    <individualName>
+        <givenName>Erika</givenName>
+      <surName>Montoya Cadavid</surName>
+    </individualName>
+    <organizationName>Instituto de Investigaciones Marinas y Costeras INVEMAR</organizationName>
+    <positionName>Investigadora científica, Administradora de contenidos SiBM</positionName>
+    <address>
+        <deliveryPoint>Calle 25 No. 2-55, Playa Salguero - Rodadero</deliveryPoint>
+        <city>Santa Marta</city>
+        <administrativeArea>Magdalena</administrativeArea>
+        <country>CO</country>
+    </address>
+    <phone>4328600 ext. 143</phone>
+    <electronicMailAddress>erika.montoya@invemar.org.co</electronicMailAddress>
+      </contact>
+      <contact>
+    <individualName>
+        <givenName>Julio</givenName>
+      <surName>Bohórquez Naranjo</surName>
+    </individualName>
+    <organizationName>Instituto de Investigaciones Marinas y Costeras INVEMAR</organizationName>
+    <positionName>Investigador Laboratorio de Sistemas de Información</positionName>
+    <address>
+        <deliveryPoint>Calle 25 No. 2-55</deliveryPoint>
+        <city>Santa Marta</city>
+        <administrativeArea>Magdalena</administrativeArea>
+        <country>CO</country>
+    </address>
+    <electronicMailAddress>julio.bohorquez@invemar.org.co</electronicMailAddress>
+      </contact>
+      <contact>
+    <individualName>
+        <givenName>Diana Isabel </givenName>
+      <surName>Gómez</surName>
+    </individualName>
+    <organizationName>Instituto de Investigaciones Marinas y Costeras INVEMAR</organizationName>
+    <positionName>Jefe Línea Organización y Dinámica de Ecosistemas – ODI de INVEMAR. </positionName>
+    <address>
+        <deliveryPoint>Calle 25 No. 2-55, Playa Salguero - Rodadero</deliveryPoint>
+        <city>Santa Marta</city>
+        <administrativeArea>Magdalena</administrativeArea>
+        <country>CO</country>
+    </address>
+    <phone>4328600 ext. 143</phone>
+      </contact>
+  <methods>
+        <methodStep>
+          <description>
+            <para>Los recorridos por los esteros en las localidades de estudio seleccionadas, se realizaron en botes con motores fuera de borda, en compañía de un lanchero.</para>
+          </description>
+        </methodStep>
+        <methodStep>
+          <description>
+            <para>Los datos obtenidos se digitaron en la Base de Datos Relacionales-BDR, para luego ser analizados. De esta manera, se puede establecer qué especies están presentes en el área y se puede contar con parámetros adicionales importantes para la construcción de programas de monitoreo y seguimiento de poblaciones.</para>
+          </description>
+        </methodStep>
+        <methodStep>
+          <description>
+            <para>La  salida  de  campo  se  realizó  entre  los  días  domingo  5  y  sábado  18  de febrero y entre el miércoles 19 al jueves 28 de abril del 2017 y  se visitaron las cinco localidades previamente identificadas, en el siguiente orden</para>
+          </description>
+        </methodStep>
+        <methodStep>
+          <description>
+            <para>Curay (Control): Se tomaron los datos en campo en los 17 puntos de conteo establecidos (Punto de conteo: 1 a 17) a lo largo del estero Curay.</para>
+          </description>
+        </methodStep>
+        <methodStep>
+          <description>
+            <para>Trujillo: Se tomaron los datos en campo en los 15 puntos de conteo establecidos (Punto de conteo: 18 a 32) a lo largo del estero Cucupí.</para>
+          </description>
+        </methodStep>
+        <methodStep>
+          <description>
+            <para>Bocagrande:  Se  tomaron  los  datos  en  campo  en  los  24  puntos  de  conteo  establecidos (Punto de conteo: 33 a 56) a lo largo de la bocana del río Rosario.</para>
+          </description>
+        </methodStep>
+        <methodStep>
+          <description>
+            <para>Terán: Se tomaron los datos en campo en los 25 puntos de conteo establecidos (Punto de conteo: 57 a 81) a lo largo del estero El Pozo.</para>
+          </description>
+        </methodStep>
+        <methodStep>
+          <description>
+            <para>Chontal: Se tomaron los datos en campo en los 19 puntos de conteo establecidos (Punto de conteo: 82 a 100) a lo largo del estero Carboncillal.</para>
+          </description>
+        </methodStep>
+        <methodStep>
+          <description>
+            <para>Para  categorizar  la  avifauna  registrada  en  los  censos  en  las  cinco  localidades,  se  consultaron varias fuentes: listados de los Libros Rojos de aves de Colombia (Rengifo et al.,2014; Rengifo et al.,2016), Lista Roja de Especies Amenazadas de la Unión Internacional para la Conservación de  la  Naturaleza  (UICN,  2016),  listados  de  especies  con  distinto  tipo  de  protección  ante  la explotación excesiva de la convención sobre el Comercio Internacional de Especies Amenazadas Silvestres (CITES, 2016) y los listados nacionales de especies migratorias (Naranjo et al.,2012) y endémicas del país (Chaparro-Herrera et al.,2013).</para>
+          </description>
+        </methodStep>
+      <sampling>
+        <studyExtent>
+          <description>
+            <para>El muestro se llevo a cabo en cinco localidades o sectores de interés que corresponden a los esteros de: Curay (Control), Trujillo, Bocagrande, Terán y Chontal.</para>
+          </description>
+        </studyExtent>
+        <samplingDescription>
+          <para>Con  el  fin  de  hacer  una  evaluación  lo  más  integral  posible,  se  escogieron  dos  meses climáticamente  lo  más contrarios  posibles, febrero (menos  lluvioso)  y  abril  (más  lluvioso),  para tener  una  idea  de  los  cambios  naturales  de  las  comunidades  de  flora  y  fauna  bajo  estudio. El análisis se realizó en cinco sectores, denominados según su posición geográfica de Norte a Sur, como Curay (Control) y Trujillo, Bocagrande, Terán y Chonta, éstos últimos escogidos con base a la información sugerida por los consejos comunitarios de Acapa y bajo Mira y  Frontera, como  áreas  representativas  de  afectación  en  el  manglar  por  el  derrame  de hidrocarburos; con información de INVEMAR  en  lo  que respecta  a  estaciones  de  muestreo  de calidad de aguas marinas y costeras; y con la información de las caracterizaciones realizadas en los años 2006 (Tavera et al., 2007) y 2016 (Tavera, 2016) por la WWF Colombia. En cada uno de los sectores, se realizó una ubicación preliminar de las unidades de muestreo (transectos) a evaluar,  para  lo  cual  se  utilizó  el  programa  ArcGIS  10.3®  y  una  imagen  de  satélite  del  sensor RapidEye del 20 de abril de 2010. Los transectos fueron ubicados perpendicularmente al cuerpo de agua principal, a través del gradiente ambiental, de acuerdo con lo sugerido por Schaeffer-Novelli y Cintrón (1986).
+
+En campo se realizaron conteos de aves para establecer la riqueza de especies y abundancia en cada  uno  de  los  sitios  de  estudio. El  método  empleado  incluyó  una combinación  de  técnicas  de  censos  visuales  y  auditivos  en  las  áreas  seleccionadas  que abarcaron los hábitats representativos. Los censos de aves en manglar consistieron en puntos de conteo de radio fijo (50 m) separados unos de otros aproximadamente 200 m, estableciendo varios  puntos  de  conteo  en  una  misma  localidad  o  estación  de  muestreo.</para>
+        </samplingDescription>
+      </sampling>
+      <qualityControl>
+        <description>
+          <para>Se estructuraron los datos biológicos en Darwin Core (DwC) como registros biológicos, mediante el uso de los elementos, definiciones y vocabularios controlados del estándar. Adicionalmente, durante las fases de validación y limpieza se utilizaron diferentes rutinas diseñadas por el SiB Colombia que permitieron comparar la información biológica de los registros con el árbol taxonómico de GBIF y con la taxonomía de WoRMs y a partir de las sugerencias traídas, completar la información de algunos campos. Por otro lado, la información de las entidades político/administrativas se valido con la DIVIPOLA de Colombia y haciendo uso del software QGiS se valido la georreferenciación de las coordenadas a partir de un análisis de intersección de los puntos con las entidades geográficas. El formato de fecha se valido de acuerdo a ISO 8601.</para>
+        </description>
+      </qualityControl>
+  </methods>
+  <project id="PRY-CAM-012-16–ITF">
+    <title>PROYECTO: IMPLEMENTACIÓN DE ACCIONES QUE CONTRIBUYAN A LA REHABILITACIÓN ECOLÓGICA DE ÁREAS AFECTADAS POR HIDROCARBUROS EN ZONA COSTERA Y PIEDEMONTE DEL DEPARTAMENTO DE NARIÑO</title>
+      <personnel>
+        <individualName>
+            <givenName>Diana Isabel</givenName>
+          <surName>Gómez</surName>
+        </individualName>
+        <role>pointOfContact</role>
+      </personnel>
+      <abstract>
+        <para>El río  Mira  en  su  cuenca  baja se  convierte  en  el  eje  fundamental  de  múltiples  actividades socioeconómicas de las cuales dependen miles de familias que se asientan en su ribera, además de ser una de las principales fuentes de abastecimiento de agua en el departamento de Nariño y adicionalmente pertenece a la Cuenca Binacional Mira-Mataje. Históricamente, el río Mira ha sido el área  de  influencia  de las afectaciones  por  vertimientos  continuos  de  hidrocarburos del Oleoducto Transandino (OTA), donde regularmente se presentan situaciones que involucran el derrame de crudo y su dispersión, influyendo en la calidad y cantidad de servicios ecosistémicos que ofrece este cuerpo de aguay de los cuales depende la población nariñense que habita en la región. Esto hace que el OTA se considere la principal amenaza de contaminación del río Mira, bien sea por el  derrame  de  hidrocarburos  asociado  a  actividades  ilícitas o  por  situaciones  de orden  público  que  influyen  en que  la  gobernabilidad  para  el  manejo  de  esta  problemática  sea considerada  insuficiente; limitando  la  capacidad  de  gestión  de  las  instituciones  encargadas  de velar por el control ambiental de los ecosistemas asociados al río. En  el  mes  de  junio  de  2015,  debido  a  los  atentados  al  Oleoducto  Trasandino,  se  derramaron aproximadamente 410.000 galones de petróleo crudo al río Mira, que eran transportados desde los campos del Putumayo a la estación de bombeo de Tumaco. Debido a que la mancha de crudo viajó por el río Mira hasta la zona costera del municipio de Tumaco a través de las quebradas y esteros (INVEMAR,  2015),  el  suministro  de  agua  potable  fue  suspendido,  dejando  a  más  de 100.000  personas  del área  afectadas.  Adicionalmente,  a  su  paso,  se  produjeron daños a  los ecosistemas, especialmente en las áreas de manglar. Para afrentar el desastre, se generó la mesa de crisis en la que participaron diversos actores de entidades locales y nacionales, en la cual se propuso generar un proyecto de investigación para determinar los daños ambientales ocasionados y proponer acciones de restauración ecológica. En este sentido, el Ministerio de Ambiente y Desarrollo Sostenible (MADS) coordinó talleres de trabajo para  la  formulación  de  un  proyecto  que  diera  respuesta  a  este  objetivo.  Durante  los talleres, participaron   el   Instituto   de   Investigaciones   Marinas   y   Costeras   (INVEMAR), la Corporación  Autónoma  Regional  de  Nariño  (CORPONARIÑO),  la  Universidad  del  Valle  y el Centro  de  Investigaciones  Hidrográficas  y  Oceanográficas  del  Pacífico  (DIMAR-CCCP), entre otros. Como resultado de estos talleres se generó el proyecto “Implementación de acciones que contribuyan a la rehabilitación ecológica de áreas afectadas por hidrocarburos en zona costera y piedemonte del Departamento de Nariño”, cuyo objetivo principal era “Contribuir a la rehabilitación ecológica  de  las áreas  afectadas  por  hidrocarburos,  producto  de  los  atentados  al  Oleoducto Trasandino  en  zona  costera  y  piedemonte  del  departamento  de  Nariño”.</para>
+      </abstract>
+      <funding>
+        <para>La  primera  fase  del Proyecto fue aprobada por el MADS y se financió con los recursos del Fondo Nacional Ambiental (FONAM).</para>
+      </funding>
+      <studyAreaDescription>
+        <descriptor name="generic"
+                    citableClassificationSystem="false">
+          <descriptorValue>El proyecto se realizó en la zona marino costera de la Ensenada de Tumaco y la cuenca baja del río Mira, departamento de Nariño, Pacífico Colombiano. La zona de la Ensenada de Tumaco está conformada por dos cuencas, la Suroriental, formada por los ríos Rosario, Mejicano, Caunapí, Gualajo e Imbilpí, y la Oriental, conformada por los ríos Changüí, Tablones, Colorado y Curay. De estos ríos, el principal es el Rosario con 530,8 Km2. En esta zona se ubica el mayor número   de   habitantes   y   de   actividades   económicas,   en   el   municipio   de   Tumaco   con aproximadamente  166.000  habitantes (Gobernación  de  Nariño,  2012),  que  giran  alrededor  de actividades como la agricultura (palma), la ganadería, la minería, la pesca, el comercio, el turismo y las actividades del puerto. La Zona Sur pertenece al área del municipio de Tumaco, en ella las principales cuencas hidrográficas corresponden a los ríos Mataje y Mira, ambas transnacionales; la hoya hidrográfica del Mira correspondiente a Colombia cubre una extensión de 4.800 km2, y las actividades económicas que se desarrollan en estas cuencas están asociadas básicamente al  cultivo  de  palma africana  (Garay-Tinoco et  al.,  2006; Vivas-Aguas et  al.,  2014).La  principal organización comunitaria en la zona de estudio corresponde el territorio del Consejo Comunitario Bajo Mira y Frontera, la cual hace parte de la jurisdicción del Municipio de Tumaco.</descriptorValue>
+        </descriptor>
+      </studyAreaDescription>
+      <designDescription>
+        <description>
+          <para>Para el diseño del proyecto se tuvo en cuenta el concepto de “restauración ecológica” el cual se define como el proceso que busca restablecer las condiciones estructurales y funcionales de un ecosistema  afectado  por  uno  o  varios  disturbios con  el fin de que  el ecosistema  retorne  a  una condición  pre-disturbio (Adams et  al.,  2005) o  a  un  estado  óptimo  de  funcionamiento  en comparación con un sistema de referencia. Para garantizar la correcta planeación y ejecución de 2 Informe Técnico Final de Proyecto y con el ánimo de facilitar la optimización de tiempo y recursos es fundamental realizar una caracterización diagnóstica, para definir el estado de degradación del ecosistema,  los  factores  limitantes,  los  estados  potenciales,  la  especialización  de  las  áreas degradadas y la definición de unidades de actuación o de manejo, metas, estrategias y técnicas de restauración (Aguilar-Garavito y Ramirez, 2015).</para>
+        </description>
+      </designDescription>
+  </project>
+</dataset>
+  <additionalMetadata>
+    <metadata>
+      <gbif>
+          <dateStamp>2022-02-18T00:38:58.457+00:00</dateStamp>
+          <hierarchyLevel>dataset</hierarchyLevel>
+            <citation identifier="https://doi.org/10.15472/7luo5v">Cárdenas Carmona G, Bohórquez Naranjo J (2022): Aves manglares de áreas afectadas por hidrocarburos en zona costera y piedemonte del departamento de Nariño. v2.0. Instituto de Investigaciones Marinas y Costeras - Invemar. Dataset/Occurrence. https://doi.org/10.15472/7luo5v</citation>
+          <bibliography>
+                <citation>INVEMAR, UNIVALLE y CORPONARIÑO. 2017. Implementación de acciones que contribuyan a la rehabilitación ecológica  de áreas  afectadas  por  hidrocarburos  en  zona  costera  y  piedemonte  del  departamento  de  Nariño. Espinosa,  L.F..  (Ed).  Resolución  No.  1516  y  Acuerdo  No.  010  de  2016,  Minambiente. Código  proyecto:  PRY-CAM-012-16. Informe técnico final. Santa Marta. 497p. https://alfresco.invemar.org.co/share/s/VRBmkr4yQlajg4tLEL0OVQ</citation>
+                <citation>INVEMAR. 2015. Ayuda de memoria sobre derrame de petróleo en el municipio de San Andrés de Tumaco, Nariño. Santa Marta. 11 p.</citation>
+                <citation>Garay-Tinoco, J.A., D.I. Gómez-López y J. R. Ortíz-Galvis. 2006. Diagnóstico integral del impacto biofísico y socioeconómico relativo a las fuentes de contaminación terrestre en la bahía de  Tumaco,  Colombia  y  lineamientos  básicos  para  un Plan  de  Manejo.  Proyecto  del Programa de las Naciones Unidas para el Medio Ambiente (PNUMA - Programa de Acción RESUMEN EJECUTIVO PROYECTO: IMPLEMENTACIÓN DE ACCIONES QUE CONTRIBUYAN A LA REHABILITACIÓN ECOLÓGICA DE ÁREAS AFECTADAS POR HIDROCARBUROS EN ZONA COSTERA Y PIEDEMONTE DEL DEPARTAMENTO DE NARIÑO 32 Mundial PAM) y Comisión Permanente del Pacífico Sur CPPS. Instituto de Investigaciones Marinas   y   Costeras   INVEMAR-Centro   Control   Contaminación   del   Pacífico   CCCP- Corporación Autónoma Regional de Nariño CORPONARIÑO. Santa Marta, 290 p.</citation>
+                <citation>Aguilar-Garavito  M.,  y  W.  Ramírez.  2015.  Monitoreo a  procesos  de  restauración  ecológica, aplicado  a  ecosistemas  terrestres.  Instituto  de  Investigación  e  Recursos  Biológicos Alexander von Humboldt (IAvH). Bogotá D.C., Colombia. 250 p.</citation>
+                <citation>Tavera, H., G. Ulloa, C. Araujo, F. Quiñones, M. Riascos, A. Ortiz y P. Ibarbo. 2007. Caracterización, diagnóstico y zonificación de los manglares en el departamento de Nariño. Bogotá.</citation>
+                <citation>Tavera, H. 2016. Caracterización de los bosques de mangle del área de estudio, buscando comparar con la información existente de proyectos anteriores. Bogotá</citation>
+                <citation>Schaeffer-Novelli, Y. y G. Cintrón. 1986. Guia para estudo de areas de manguezal: Estrutura, função e flora. Caribbean Ecological Research, Sao Paulo. 150 p.</citation>
+                <citation>Rengifo, L.M., M.F. Gómez y J. Velásquez-Tibatá, A.M. Amaya-Villarreal, G.H. Kattan, J. D. Amaya-Espinel y J. Burbano-Girón. 2014. Libro rojo de aves de Colombia, Volumen I: Bosques Húmedos de los Andes y la costa Pacífica. Editorial Pontificia Universidad Javeriana e Instituto Alexander von Humboldt. Bogotá D.C. Colombia. 466p.</citation>
+                <citation>Rengifo, L.M., A.M. Amaya-Villarreal, J. Burbano-Girón y J. Velásquez-Tibatá. 2016. Libro rojo de aves de Colombia, Volumen II: Ecosistemas abiertos, secos, insulares, acuáticos continentales, marinos, tierras altas del Darién y Sierra Nevada de Santa Marta y bosques húmedos del centro, norte y oriente del país. Editorial Pontificia Universidad Javeriana e Instituto Alexander von Humboldt. Bogotá D.C. Colombia. 563p.</citation>
+                <citation>UICN. 2016. Lista Roja de Especies Amenazadas de la Unión Internacional para la Conservación de la Naturaleza. &lt;http://www.iucnredlist.org/&gt;.</citation>
+                <citation>CITES. 2016. Convention on international trade in endangered species of wild fauna and flora. Appendices I, II and III. 21 November 2016. Geneva, Switzerland. 46p.</citation>
+                <citation>Naranjo, L.G., J.D. Amaya, D. Eusse-González y Y. Cifuentes-Sarmiento. 2012. Guía de las especies migratorias de la biodiversidad en Colombia. Aves. Vol. 1. Ministerio de Ambiente y Desarrollo Sostenible-MADS y Fondo Mundial para la Naturaleza-WWF Colombia. Bogotá D.C. Colombia. 708 p.</citation>
+                <citation>Chaparro-Herrera S., M.A. Echeverry-Galvis, S. Córdoba-Córdoba y A. Sua-Becerra. 2013. Listado actualizado de las aves endémicas y casi-endémicas de Colombia. Biota Colombiana, 14(2): 235-272.</citation>
+                <citation>Gobernación de Nariño. 2012. http://www.narino.gov.co/index.php/nuestrodepartamento/información</citation>
+          </bibliography>
+          <resourceLogoUrl>https://statics.sibcolombia.net/sib-resources/images/logos-socios/500px/invemar.jpg</resourceLogoUrl>
+          <dc:replaces>https://ipt.biodiversidad.co/sibm/resource?id=invemar_aves_narino/v2.xml</dc:replaces>
+      </gbif>
+    </metadata>
+  </additionalMetadata>
+</eml:eml>
