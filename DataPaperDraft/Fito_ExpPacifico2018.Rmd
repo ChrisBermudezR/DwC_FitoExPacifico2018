@@ -228,29 +228,6 @@ El oleaje en esta área alcanza alturas promedio de 14 $\pm$ 0.6 metros, con un 
 Al sur de Cabo Manglares, en la desembocadura del río Mira en la Bahía de Ancon de Sardinas, se establecieron 17 estaciones de muestreo (Tabla 1), las cuales se distribuyeron en grupos de 6 estaciones separadas por distancias de 2, 5 y 10 millas de la costa (Figura 1). 
 
 
-Tabla 1. Ubicación geográfica de las 18 estaciones de muestreo de las variables fisicoquímicas y biológicas. 
-
-
-
-|      Estaciones     	|      Latitud          	|      Longitud            	|
-|:---------------------:|:-----------------------:|:-------------------------:|
-|     34-1            	|     1°37'58.897" N     	|     79°1'20.824" W        	|
-|     34-5            	|     1°40'2.388" N      	|     79°4'35.796" W        	|
-|     34-10           	|     1°40'3.911" N      	|     79°9'37.732" W        	|
-|     34A-1           	|     1°37'57.788" N     	|     79°5'18.812" W        	|
-|     34A-5           	|     1°37'58.984" N     	|     79°10'24.305" W       	|
-|     34A-10          	|     1° 37' 59" N      	|     79° 10' 23.999" W    	|
-|     34B-1           	|     1°35'58.016" NN    	|     78°59'51.299" W       	|
-|     34B-5           	|     1°33'56.821" N     	|     79°3'49.802" W        	|
-|     34B-10          	|     1°35'56.638" N     	|     79°8'49.974" W        	|
-|     34C-5           	|     1°33'54.598" N     	|     79°1'1.700" W         	|
-|     34C-10          	|     1°33'53.035" N     	|     79°6'5.339" W         	|
-|     34D-1           	|     1° 31' 50" N       	|     78° 53' 12" W         	|
-|     34D-5           	|     1°31'47.489" N     	|     78°57'3.150" W        	|
-|     34D-10          	|     1°31'47.788" N     	|     79°2'5.820" W         	|
-|     35-2            	|     1° 29' 46" N      	|     78° 53' 12.999" W    	|
-|     35-5            	|     1°29'45.881" N     	|     78°57'10.145" W       	|
-|     35-10           	|     1° 29' 44" N       	|     79° 2' 12" W         	|
 
 
 ## Descripción del muestreo.
@@ -333,30 +310,28 @@ Todos los *scripts* utilizados para validar e integrar los datos en el *Darwin C
 
 ## Descripción de los conjuntos de datos.
 
+El conjunto de datos se componen de 34 registros de eventos de muestreo, 1462 registros de ocurrencia de géneros en el zona de estudio y 26015 registros de medidas de hechos que componen los datos ambientales asociados a cada registro de ocurrencia.
+
 El análisis de la abundancia de los géneros de  fitoplancton bajo diferentes condiciones de marea revela que *Skeletonema* y *Chaetoceros* son los géneros dominantes (Figura 3), presentando los mayores conteos tanto en pleamar como en bajamar, con un total de 478.540 y 104.600 $Cél \ L^{-1}$, respectivamente, mientras que géneros como  *Phalacroma*, *Neocalyptrella*, y *Ornithocercus* tienen muy bajas abundancias, con menos de 30 $Cél \ L^{-1}$ (Tabla 2). En general, se observan mayores abundancias durante bajamar, especialmente en géneros como *Thalassionema* y *Coscinodiscus*, mientras que otros como *Gonyaulax* y *Blepharocysta* son exclusivas de pleamar. 
 
 
 
 **URL del recurso.** Para acceder a la última versión del conjunto de datos: \
-**IPT.** (URL del recurso publicado a través del IPT) \
-**Portal de datos.** (URL del recurso publicado a través del Portal del SiB Colombia) \
-**Portal GBIF.** (URL del recurso publicado a través del Portal de GBIF) \
-**Nombre.** Géneros de fitoplancton obtenidos en los eventos de pleamar y bajamar en la Expedición Pacífico 2018 - Distrito de Manejo Integrado (DNMI) Cabo Manglares. \
+**IPT.** https://ipt.biodiversidad.co/sibm/resource?r=fito&v=1.1 \
+**Portal de OBIS** https://obis.org/dataset/0c26d43f-3b01-4667-ae53-43bf7fac27ed \
+**Portal GBIF.** https://www.gbif.org/dataset/3f7ecbdf-00fc-4f30-b830-cb2c7fa0aa10 \
+**Nombre.** Registros de fitoplancton obtenidos en los eventos de pleamar y bajamar en la Expedición Pacífico 2018 - Distrito Nacional de Manejo Integrado (DNMI) Cabo Manglares. \
 **Idioma.** Español\
 **Codificación de caracteres.** UTF-8
 **URL del archivo.** Para acceder a la versión del conjunto de datos descrita en este artículo: \
-(URL al recurso en el Editor de Manuscritos de la revista) \
-**Formato del archivo.** Darwin Core \
+https://ipt.biodiversidad.co/sibm/resource?r=fito&v=1.1 \
+**Formato del archivo.** *Darwin Core Archive* \
 **Versión del formato del archivo.** 1.0 \
-**Nivel de jerarquía.** Dataset \
-**Fecha de publicación de los datos.** AAAA-MM-DD \
+**Nivel de jerarquía.** Conjunto de datos \
+**Fecha de publicación de los datos.** 2024-12-05 \
 **Idioma de los metadatos.** Español \
-**Fecha de creación de los metadatos.** 2021-09-21 \
+**Fecha de creación de los metadatos.** 2024-11-15 \
 **Licencia de uso.** Extraída del recurso publicado a través del SiB Colombia. \
-
-
-
-
 
 
 
@@ -391,6 +366,31 @@ knitr::include_graphics(path = "./Generos_EPC_2018/ExPacifico2.png")
 ```
 
 # Tablas
+
+Tabla 1. Ubicación geográfica de las 18 estaciones de muestreo de las variables fisicoquímicas y biológicas. 
+
+
+
+|      Estaciones     	|      Latitud          	|      Longitud            	|
+|:---------------------:|:-----------------------:|:-------------------------:|
+|     34-1            	|     1°37'58.897" N     	|     79°1'20.824" W        	|
+|     34-5            	|     1°40'2.388" N      	|     79°4'35.796" W        	|
+|     34-10           	|     1°40'3.911" N      	|     79°9'37.732" W        	|
+|     34A-1           	|     1°37'57.788" N     	|     79°5'18.812" W        	|
+|     34A-5           	|     1°37'58.984" N     	|     79°10'24.305" W       	|
+|     34A-10          	|     1° 37' 59" N      	|     79° 10' 23.999" W    	|
+|     34B-1           	|     1°35'58.016" NN    	|     78°59'51.299" W       	|
+|     34B-5           	|     1°33'56.821" N     	|     79°3'49.802" W        	|
+|     34B-10          	|     1°35'56.638" N     	|     79°8'49.974" W        	|
+|     34C-5           	|     1°33'54.598" N     	|     79°1'1.700" W         	|
+|     34C-10          	|     1°33'53.035" N     	|     79°6'5.339" W         	|
+|     34D-1           	|     1° 31' 50" N       	|     78° 53' 12" W         	|
+|     34D-5           	|     1°31'47.489" N     	|     78°57'3.150" W        	|
+|     34D-10          	|     1°31'47.788" N     	|     79°2'5.820" W         	|
+|     35-2            	|     1° 29' 46" N      	|     78° 53' 12.999" W    	|
+|     35-5            	|     1°29'45.881" N     	|     78°57'10.145" W       	|
+|     35-10           	|     1° 29' 44" N       	|     79° 2' 12" W         	|
+
 
 Tabla 2. Abundancias de los géneros en el total de las muestras y en las muestras del colectadas en la pleamar y bajamar en el Distrito Nacional de Manejo Integrado de Cabo Manglares, Tumaco, Nariño.
 
